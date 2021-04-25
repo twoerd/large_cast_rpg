@@ -1,0 +1,78 @@
+Each character has ratings in the following skills:
+
+Skills:             Used in...
+-   Control         (Hand-to-Hand)
+-   Fighting Mind   (Hand-to-Hand)
+-   Speed           (Hand-to-Hand)
+-   Strength        (Hand-to-Hand)
+-   Shoot/Aim
+-   Tactics         (Mass Combat)
+-   Lead            (Mass Combat [maybe])
+-   Craft
+-   Trade
+-   Endurance
+-   Jump/Climb
+-   Ride
+-   Run
+-   Swim
+-   Heal
+-   Hide
+-   Know
+-   Notice
+-   Sail
+-   Survive
+-   Terrain()
+-   Administer
+-   Convince
+-   Perform
+
+The ratings go from 0 to 10, with an average of 2 and most people falling between 0 and 4.
+
+    +------------------------------------+
+----| Random Generation of Skill Ratings |----
+    +------------------------------------+
+
+When generating skill ratings randomly, the following distribution of skill ratings is as follows:
+Rating  Number/million
+ 0       62500
+ 1      250000
+ 2      375000
+ 3      259860
+ 4       43773
+ 5        7374
+ 6        1242
+ 7         209
+ 8          35
+ 9           6
+10           1
+
+If this distribution is used to randomly generate main characters, the rating should be shifted upwards by 2. For example, if the randomly generated rating is 3, it should be shifted up to 5.
+
+For each character, the skill ratings are generated in groups:
+
+Hand-to-Hand:       Physical:       Knowledge:      Social:
+Control             Endurance       Craft           Administer
+Fighting Mind       Hide            Heal            Convince
+Speed               Jump/Climb      Know            Lead
+Strength            Ride            Notice          Perform
+                    Run             Sail            Tactics
+                    Shoot/Aim       Survive
+                    Swim            Terrain ()
+                                    Trade
+
+1.  A rating (call it "r") is randomly generated for each group using the distribution above.
+2.  That rating is multiplied by the number of skills in the group. This number is the "bank" that will be split to the skills in the group.
+3.  Each skill is assigned a minimum of "r-3", if "r-3" is greater than 0. For each value assigned to a rating, that same value is removed from the "bank".
+4.  The remaining values in the "bank" are assigned to the skills randomly. If there are "n" skills in the group, then a dice (or other random generator) with "n" equal outcomes is used to determine which skill receives each value in the bank until the bank is empty. (No skill rating can exceed 10).
+
+For example, the character Morten Avitch randomly generates the skill rating for the "Hand-to-Hand" group to be 4. Then the bank is 16 (from 4 x 4 skills). Each of the skills in the group are assigned a minimum of 1:
+Control         1
+Fighting Mind   1
+Speed           1
+Strength        1
+The bank is now at 12. A d4 (because the group has 4 skills) is rolled 12 times, resulting in 1 being rolled 3 times, 2 being rolled 2 times, 3 being rolled 2 times, and 4 being rolled 5 times. This results in the following skill rankings:
+Control         1 + 3 = 4
+Fighting Mind   1 + 2 = 3
+Speed           1 + 2 = 3
+Strength        1 + 5 = 6
+
