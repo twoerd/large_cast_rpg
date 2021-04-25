@@ -1,0 +1,172 @@
+############
+#  0       # Rough Table of Contents
+############
+
+General (todo)
+-   Introduction
+    -   What genre of story
+    -   what genre / type of setting
+    -   number of players
+    -   vibe of game
+    -   The 4 subsystems:
+        -   Decisions & Discussions
+        -   Travel & Contested Movement
+        -   Hand-to-Hand
+        -   Mass Combat
+    -   Characters
+-   General Mechanics (todo)
+    -   Dice used
+    -   Skill checks
+    -   Skill ratings
+-   Skills (todo)
+    -   Full list of skills
+        -   Description of Skills
+    -   Description of randomly generating character skills
+-   Conditions (in general) (todo)
+
+Decisions & Discussions (todo)
+
+Travel & Contested (todo)
+
+Hand-to-Hand (todo)
+
+Mass Combat (todo)
+
+############
+#  1       # General
+############
+
+::::::::::::
+:  1.01    : Introduction
+
+::::::::::::
+:  1.02    : General Mechanics
+
+::::::::::::
+:  1.03    : Skills
+
+Each character has ratings in the following skills:
+
+-   Control: represents coordination, precision, and leverage with
+    respect to body movements in Hand-to-Hand combat
+-   Fighting Mind: represents experience and cunning in Hand-to-Hand
+    combat
+-   Speed: represents quickness of motion in Hand-to-Hand combat
+-   Strength: represents strength and power in Hand-to-Hand combat
+
+-   Shoot/Aim: covers all sorts of ranged combat where the human body
+    is responsible for power and aim, i.e. bows, javelins, spears, and
+    slings, but not trebuchets
+-   Endurance: the ability to carry out a physical task over an extended
+    period of time
+-   Hide: the ability to stay still, move without making noise, and
+    position the body so as to be unseen and unheard
+-   Jump/Climb: self-explanatory
+-   Ride: the ability to control an animal used for transportation
+    purposes, such as horses, elephants, or any others. In a pinch, this
+    can be used for other types of human-animal interactions
+-   Run: self-explanatory
+-   Swim: self-explanatory
+
+-   Craft: the ability create or repair human built products, and to use
+    the tools associated with those purposes
+-   Trade: the ability to make good purchases and sales, to assess the
+    value of items, and deal with financial transactions
+-   Heal: the ability to treat wounds and cure diseases
+-   Know: the ability to recall and understand concepts in history,
+    geography, natural sciences, mathematics, engineering (and other
+    academic topics)
+-   Notice: the ability to become aware of details, including far away
+    objects or people, hidden objects or people
+-   Sail: the ability to carry out any task associated with the
+    operation of a watercraft, whether sail-powered or otherwise
+-   Survive (terrain type): the ability to acquire food, water, and
+    shelter; to identify locations; and to maintain a sense of direction
+    in natural settings. This skill applies to all natural settings, but
+    if a terrain type is specified then the skill gets a +1 bonus in
+    that terrain
+
+-   Tactics: The ability to develop and carry out an effective strategy
+    in Mass Combat
+-   Lead: the ability to inspire others to follow given directions and
+    to perform better at the directed task
+-   Administer: the ability to organize a group of people, including
+    bureaucratic tasks, logistical tasks, and record-keeping.
+-   Convince
+-   Perform
+
+The ratings go from 0 to 10, with an average of 2. Most people fall
+between 0 and 4.
+
+...........
+: 1.03.01 : Skill Rating Generation
+
+When generating skill ratings randomly, the distribution of skill
+ratings is as follows:
+
+Rating  Number/million
+ 0       62500
+ 1      250000
+ 2      375000
+ 3      259860
+ 4       43773
+ 5        7374
+ 6        1242
+ 7         209
+ 8          35
+ 9           6
+10           1
+
+If this distribution is used to randomly generate main characters, the
+rating should be shifted upwards by 2. For example, if the randomly
+generated rating is 3, it should be shifted up to 5.
+
+For each character, the skill ratings are generated in groups:
+
+Hand-to-Hand:       Physical:       Knowledge:      Social:
+Control             Endurance       Craft           Administer
+Fighting Mind       Hide            Heal            Convince
+Speed               Jump/Climb      Know            Lead
+Strength            Ride            Notice          Perform
+                    Run             Sail            Tactics
+                    Shoot/Aim       Survive
+                    Swim            Terrain ()
+                                    Trade
+
+1.  A rating (call it "r") is randomly generated for each group using
+    the distribution above.
+2.  That rating is multiplied by the number of skills in the group. This
+    number is the "bank" that will be split to the skills in the group.
+3.  Each skill is assigned a minimum of "r-3", if "r-3" is greater than
+    0. For each value assigned to a rating, that same value is removed
+    from the "bank".
+4.  The remaining values in the "bank" are assigned to the skills
+    randomly. If there are "n" skills in the group, then a dice (or
+    other random generator) with "n" equal outcomes is used to determine
+    which skill receives each value in the bank until the bank is empty.
+    (No skill rating can exceed 10).
+
+For example, the character Morten Avitch randomly generates the skill
+rating for the "Hand-to-Hand" group to be 4. Then the bank is 16 (the
+randomly generated value of 4 multiplied by 4 skills). Each of the
+skills in the group are assigned a minimum of 1:
+
+Control         1
+Fighting Mind   1
+Speed           1
+Strength        1
+
+The bank is now at 12. A d4 (because the group has 4 skills) is rolled
+12 times, resulting in 1 (Control) being rolled 3 times, 2 (Fighting
+Mind) being rolled 2 times, 3 (Speed) being rolled 2 times, and 4
+(Strength) being rolled 5 times. This results in the following skill
+rankings:
+
+Control         1 + 3 = 4
+Fighting Mind   1 + 2 = 3
+Speed           1 + 2 = 3
+Strength        1 + 5 = 6
+
+::::::::::::
+:  1.04    : Conditions
+
