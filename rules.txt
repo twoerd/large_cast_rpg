@@ -42,6 +42,80 @@ Mass Combat (todo)
 ::::::::::::
 :  1.02    : General Mechanics
 
+Many situations can be resolved with one of the 4 subsystems. Within
+those subsystems, skill checks are used to resolve opposed actions. For
+any other situations where two characters are opposing each other, or an
+unopposed character is taking an action with a risk of failure or
+consequences, the same skill checks are used. Whenever this more free-
+form roleplaying occurs, it should be adjudicated by the table as a
+whole. If there are any players whose characters are not involved, they
+are considered third-party and can take on extra adjudication
+responsibilities.
+
+............
+:  1.02.01 : Skill Checks
+
+Skill checks are primarily used when two characters are taking actions
+that are in opposition to each other. This can include one character
+trying to take an action while the other tries to prevent them from
+succeed, or both characters trying to take independent actions where it
+is important to know which action is quicker or more effective. For this
+reason, the vast majority of skill checks use a skill rating from each
+of the two characters involved.
+
+When there is only one character taking action, but that action has a
+risk of failing or causing other undesired consequences, the skill check
+uses a skill rating from the character and substitutes a difficulty
+rating for the missing character. The difficulty rating is determined by
+third-party players at the table. A good default value is 3. The
+consequence of failure should be known to the player before attempting
+the unopposed skill check. If they do not want to take the risk
+associated with the skill check, they can role-play to change the
+situation, which changes the difficulty and consequences.
+
+In the resolution of a skill check, the difference between the skill
+ratings (or the skill rating and the difficulty) is used to determine
+how many dice to roll. If "d" is the difference (must be positive), then
+"d+2" 8-sided dice are rolled. If any single dice shows a 7 or an 8,
+then the character with the higher skill rating was successful (or
+performed better). If "d" is 0, then a single dice is rolled, with the
+characters having an equal chance of success.
+
+............
+:  1.02.02 : Skill Check Examples
+
+If Morten Avitch is racing against his sister Ella Avitch, then they
+might roll their "Run" skills against each other. If Morten's "Run" is 2
+and Ella's is 4, then four 8-sided dice are rolled. If any of the dice
+show 7 or 8, then Ella is faster. Ella's player rolls the dice, and gets
+2, 2, 3, 6, so Morten wins the race.
+
+If Morten Avitch is trying to climb a cliff. He has a "Jump/Climb"
+rating of 3, and the cliff has a difficulty of 3 (where the consequence
+is falling up to 15 feet, causing a major wound). He doesn't want to
+take this risk, so he decides to throw a rope around a tree. (Throwing
+the rope doesn't require a roll unless there is a potential consequence,
+like a time-pressure or the potential to lost the rope). With the rope
+tied, the skill check now has a difficulty of 2, but the consequence is
+that Morten is simply too weak to be able to make the climb. Morten can
+now roll 3 8-sided dice, where a 7 or 8 indicates a successful climb (as
+Morten's "Jump/Climb" is higher than the cliff's difficulty of 2). He
+rolls a 4, 6, 8, and makes the climb.
+
+............
+:  1.02.03 : Note About Dice
+
+In order to play this game, it is recommended that the table as a whole
+has at least 10 8-sided dice to share, and one 20-sided die.
+Additionally, each player should have a single 12-sided dice.
+
+Technically, the 8-sided dice can be substituted for other dice. The key
+property is that they must be a multiple of 4-sided: 4-sided, 8-sided,
+12-sided, or 20-sided. For 4-sided dice, success occurs on a 4. For
+8-sided dice, success occurs on a 7 or 8. For 12-sided dice, success
+occurs on a 10, 11, or 12. Finally, for 20-sided dice, success occurs on
+a 16, 17, 18, 19, or 20.
+
 ::::::::::::
 :  1.03    : Skills
 
@@ -92,8 +166,10 @@ Each character has ratings in the following skills:
     to perform better at the directed task
 -   Administer: the ability to organize a group of people, including
     bureaucratic tasks, logistical tasks, and record-keeping.
--   Convince
--   Perform
+-   Convince: the ability to convey the veracity, value, and meaning of
+    spoken words, used in Discussions
+-   Perform: the ability to impress an audience through performance arts
+    such as singing, dancing, acting, or various stunts
 
 The ratings go from 0 to 10, with an average of 2. Most people fall
 between 0 and 4.
