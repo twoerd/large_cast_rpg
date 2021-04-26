@@ -206,8 +206,7 @@ Speed               Jump/Climb      Know            Lead
 Strength            Ride            Notice          Perform
                     Run             Sail            Tactics
                     Shoot/Aim       Survive
-                    Swim            Terrain ()
-                                    Trade
+                    Swim            Trade
 
 1.  A rating (call it "r") is randomly generated for each group using
     the distribution above.
