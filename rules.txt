@@ -184,14 +184,14 @@ Rating  Number/million
  0       62500
  1      250000
  2      375000
- 3      259860
- 4       43773
- 5        7374
- 6        1242
- 7         209
- 8          35
- 9           6
-10           1
+ 3      250000
+ 4       52000
+ 5        8700
+ 6        1500
+ 7         250
+ 8          40
+ 9           8
+10           2
 
 If this distribution is used to randomly generate main characters, the
 rating should be shifted upwards by 2. For example, if the randomly
