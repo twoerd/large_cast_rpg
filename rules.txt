@@ -36,11 +36,11 @@ Mass Combat (todo)
 #  1       # General
 ############
 
-::::::::::::
-:  1.01    : Introduction
+++++++++++++
++  1.01    + Introduction
 
-::::::::::::
-:  1.02    : General Mechanics
+++++++++++++
++  1.02    + General Mechanics
 
 Many situations can be resolved with one of the 4 subsystems. Within
 those subsystems, skill checks are used to resolve opposed actions. For
@@ -52,7 +52,7 @@ whole. If there are any players whose characters are not involved, they
 are considered third-party and can take on extra adjudication
 responsibilities.
 
-............
+::::::::::::
 :  1.02.01 : Skill Checks
 
 Skill checks are primarily used when two characters are taking actions
@@ -81,7 +81,7 @@ then the character with the higher skill rating was successful (or
 performed better). If "d" is 0, then a single dice is rolled, with the
 characters having an equal chance of success.
 
-............
+::::::::::::
 :  1.02.02 : Skill Check Examples
 
 If Morten Avitch is racing against his sister Ella Avitch, then they
@@ -102,12 +102,15 @@ now roll 3 8-sided dice, where a 7 or 8 indicates a successful climb (as
 Morten's "Jump/Climb" is higher than the cliff's difficulty of 2). He
 rolls a 4, 6, 8, and makes the climb.
 
-............
+::::::::::::
 :  1.02.03 : Note About Dice
 
-In order to play this game, it is recommended that the table as a whole
-has at least 10 8-sided dice to share, and one 20-sided die.
-Additionally, each player should have a single 12-sided dice.
+In order to play this game, the table as a whole will need at least one
+set of commonly-available polyhedral dice. The set consists of a 4-sided
+dice, a 6-sided dice, an 8-sided dice, a 10-sided dice (numbered from 0
+to 9), a 10-sided dice (numbered from 00 to 90), a 12-sided dice, and a
+20-sided dice. It is recommended that the table as a whole has at least
+ten 8-sided dice to share.
 
 Technically, the 8-sided dice can be substituted for other dice. The key
 property is that they must be a multiple of 4-sided: 4-sided, 8-sided,
@@ -116,8 +119,8 @@ property is that they must be a multiple of 4-sided: 4-sided, 8-sided,
 occurs on a 10, 11, or 12. Finally, for 20-sided dice, success occurs on
 a 16, 17, 18, 19, or 20.
 
-::::::::::::
-:  1.03    : Skills
+++++++++++++
++  1.03    + Skills
 
 Each character has ratings in the following skills:
 
@@ -174,7 +177,7 @@ Each character has ratings in the following skills:
 The ratings go from 0 to 10, with an average of 2. Most people fall
 between 0 and 4.
 
-...........
+:::::::::::
 : 1.03.01 : Skill Rating Generation
 
 When generating skill ratings randomly, the distribution of skill
@@ -242,6 +245,157 @@ Fighting Mind   1 + 2 = 3
 Speed           1 + 2 = 3
 Strength        1 + 5 = 6
 
-::::::::::::
-:  1.04    : Conditions
+++++++++++++
++  1.04    + Conditions
 
+############
+#  2       # Decisions and Discussions
+############
+
+++++++++++++
++  2.01    + Description of a Discussion
+
+During a discussion, there are typically two groups of people. Most
+commonly, one group takes on the role of the talker and the other takes
+on the role of the listener. These roles switch back and forth as each
+side raise their points and tries to influence the other group. In some
+cases, however, the talker stays the talker then entire time. In other
+cases the talker and the listener are the same person, which allows this
+subsystem to be used to explore a single characters Motivations and
+momentous decisions.
+
+A discussion is made up of Appeals. Each Appeal consists of the players
+role-playing the words and actions of their characters as well as a few
+rolls of the dice to resolve how the motivations of the listener may
+have changed.
+
+During a discussion, role-play dictates who the talker is at any given
+moment, and when they make Appeals. If one group does not wish to have
+an Appeal made to them, they can try to escape (through the Contested
+Movement subsystem), turn to violence (through the Hand-to-Hand
+subsystem), or otherwise remove the talker from their presence. However,
+if the two groups are in each other's presence, Appeals cannot simply be
+ignored. Once a listener has heard three Appeals (successful or not),
+they can choose to ignore further Appeals until a new discussion begins.
+A new discussion cannot begin if the situation (as relevant to the topic
+of the Appeals) hasn't changed. (This rule is in place to stop players
+from re-hashing the same arguments over and over).
+
+++++++++++++
++  2.02    + The Mechanics of Appeals
+
+1.  Through role-play, the talker establishes the topic and the context.
+    They also give the listener a suggested response or action. This
+    role-play is meant to be fairly free form - say what each character
+    would say, express their emotions (or lack of emotions), voice the
+    concerns, questions, or counters of the listener, etc. It shouldn't
+    feel too mechanical or constraining.
+2.  The table decides the skill and motivation that will be used in the
+    Appeal rolls. Typically, the talker will state which skill and
+    motivation they were expecting to use, and the rest of the table
+    will agree. The skill will most often be one of Convince, Lead, or
+    Administer depending on the tone and content of the Appeal. (Other
+    skills may be allowed if they are a better match). Which motivation
+    largely depends on the action/response suggested to the listener.
+3.  The table decides the appropriate difficulty of the skill check.
+    This should almost always be 2 or 3. If the listener already has a
+    Driving Motivation for the context and topic, the difficulty is 3.
+4.  The talker rolls their skill check. If the skill check is
+    successful, the listener rolls a 12-sided dice and compares to the
+    strength of their motivation. If the result of the dice is equal or
+    lower to the strength of the motivation, then that motivation
+    becomes the Driving Motivation in the context of the topic
+    established through role-play. The context, topic, and Driving
+    Motivation should be written on the listener's character sheet.
+
+++++++++++++
++  2.03    + Character Motivations
+
+The motivations of a character consist of 9 pairs:
+
+           Energetic  vs  Lazy/Efficient
+           Forgiving  vs  Avenging
+              Honest  vs  Deceitful/Sly
+       Merciful/Kind  vs  Cruel/Ruthless
+       Modest/Humble  vs  Proud/Arrogant
+    Prudent/Cautious  vs  Reckless
+      Valourous/Bold  vs  Cowardly/Fearful
+            Trusting  vs  Independent
+Generous/Sacrificial  vs  Selfish/Hedonistic
+
+Each of these 18 motivations has a rating from 2 to 10, and the two
+motivations within one of the pairs cannot add to more than 12. For
+example, if Morten Avitch is highly motivated by pride, his rating for
+Proud would be 10. Morten cannot be both Proud and Humble, and to
+reflect this his rating for Humble would be 2.
+
+::::::::::::
+:  2.03.01 : Driving Motivations
+
+As described in 2.02, an Appeal can cause one of a character's
+motivations to become the Driving Motivation with respect to a specific
+context and topic.
+
+The player of a character who has been assigned a Driving Motivation has
+quite a bit of freedom to decide how that motivation plays out. They do
+not have to follow the exact suggestion of the talker. Additionally, in
+situations that do not involve the specific context and topic of the 
+Driving Motivation, the player is free to make decisions for the
+character as the like. However, whenever that context and topic does
+come up, the character's actions should most closely match the Driving
+Motivation that has been assigned, and not any of the other Motivations.
+
+A character can have multiple Driving Motivations, as long as they each
+have different contexts and topics. If a successful Appeal is made
+involving a context and topic that already has a Driving Motivation, the
+old Driving Motivation is replaced.
+
+::::::::::::
+:  2.03.02 : Values of Motivations
+
+When generating a character, the 9 Motivational pairs should be
+assigned the following pairs of ratings: 2 and 10 (one pair), 3 and 9
+(two pairs), 4 and 8 (three pairs), 5 and 7 (two pairs), and 6 and 6
+(one pair). The rating pairs are assigned randomly: first which assign
+the rating pairs to the Motivation pairs with an equal likelyhood, then
+randomly (50% chance) switch the order of the rating pair.
+
+For example, when generating Motivation ratings for Morten Avitch, a
+10-sided die is rolled to determine which Motivation pair receives the
+2 and 10 (if the result is 10, the die is rerolled). The result is a 5,
+meaning the fifth Motivation pair: Modest/Humble vs Proud/Arrogant. Then
+an 8-sided die is rolled to determine which Motivation pair receives one
+of the 3 and 9s. The result is a 7, meaning the seventh unassigned
+Motivation pairs: Trusting vs Independent.
+
+Once all the rating pairs have been assigned, a single die is rolled for
+each. If the result is even, the order of the rating pair is switched.
+The 2 and 10 was assigned to Modest/Humble vs Proud/Arrogant for Morten
+Avitch. Morten's player rolls an 8-sided die and gets a 3, meaning the 2
+is assigned to Modest/Humble and the 10 to Proud/Arrogant. One of the 3
+and 9s was assigned to Trusting vs Independent. Morten's player rolls a
+2, meaning the 3 is assigned to Independent and the 9 to Trusting.
+
+++++++++++++
++  2.04    + Purpose of the Subsystem
+
+This system, and the motivations that accompany it, are meant to provide
+a role-playing guide to players. This should help players accurately
+role-play multiple different personalities, especially when they are
+playing multiple characters. The motivations can voluntarily be used by
+players any time they are unsure of how the character would act, or they
+want a reference for the personality of the character. The simplest way
+to do this is to choose the Motivation pair that best matches the
+upcoming decision, and role-play the character in a way that matches the
+higher rated of the two Motivations.
+
+The Appeal mechanic is also meant to provide both mechanics and
+inspiration to players looking to role-play social interactions. The
+subsystem has been designed to avoid a number of pitfalls of mechanized
+social interactions:
+-   it doesn't reduce the interaction to a single roll that can occur
+    without role-play,
+-   it doesn't present an obvious best argument to the talker leaving
+    the talker feeling like the mechanics are dictating their actions,
+-   it doesn't force the listener too tightly into taking actions they
+    don't want to take.
