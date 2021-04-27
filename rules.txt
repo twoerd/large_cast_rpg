@@ -2,35 +2,39 @@
 #  0       # Rough Table of Contents
 ############
 
-General (todo)
--   Introduction
-    -   What genre of story
-    -   what genre / type of setting
-    -   number of players
-    -   vibe of game
-    -   The 4 subsystems:
-        -   Decisions & Discussions
-        -   Travel & Contested Movement
-        -   Hand-to-Hand
-        -   Mass Combat
-    -   Characters
--   General Mechanics (todo)
-    -   Dice used
-    -   Skill checks
-    -   Skill ratings
--   Skills (todo)
-    -   Full list of skills
-        -   Description of Skills
-    -   Description of randomly generating character skills
--   Conditions (in general) (todo)
+1   General
+    1.01 Introduction (todo)
+        -   What genre of story
+        -   what genre / type of setting
+        -   number of players
+        -   vibe of game
+        -   The 4 subsystems:
+            -   Decisions & Discussions
+            -   Travel & Contested Movement
+            -   Hand-to-Hand
+            -   Mass Combat
+        -   Characters
+    1.02 General Mechanics
+        1.02.01 Skill Checks
+        1.02.02 Skill Check Examples
+        1.02.03 Note About Dice
+    1.03 Skills
+        1.03.01 Skill Rating Generation
+    1.04 Conditions (todo)
 
-Decisions & Discussions (todo)
+2   Decisions & Discussions
+    2.01 Description of a Discussion
+    2.02 The Mechanics of Appeals
+    2.03 Character Motivations
+        2.03.01 Driving Motivations
+        2.03.02 Motivation Ratings
+    2.04 Purpose of the Subsystem
 
-Travel & Contested (todo)
+3   Travel & Contested Movement (todo)
 
-Hand-to-Hand (todo)
+4   Hand-to-Hand (todo)
 
-Mass Combat (todo)
+4   Mass Combat (todo)
 
 ############
 #  1       # General
