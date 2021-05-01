@@ -27,7 +27,8 @@
     2.02 The Mechanics of Appeals
     2.03 Character Motivations
         2.03.01 Driving Motivations
-        2.03.02 Motivation Ratings
+        2.03.02 Character Growth
+        2.03.03 Motivation Ratings & Generation
     2.04 Purpose of the Subsystem
 
 3   Travel & Contested Movement (todo)
@@ -256,33 +257,48 @@ Strength        1 + 5 = 6
 #  2       # Decisions and Discussions
 ############
 
+Whenever characters seek to influence the actions of other characters,
+the Discussion subsystem can be used to give shape and direction to the
+roleplay. It can apply to a wide variety of situations:
+
+-   Councils
+-   Making requests of a ruler
+-   Trade negotiations
+-   Talking out of a sticky situation
+-   Influencing a mob
+-   Self-reflection
+-   Parleys
+-   Alliance discussions
+-   Leading an army
+
 ++++++++++++
 +  2.01    + Description of a Discussion
 
-During a discussion, there are typically two groups of people. Most
-commonly, one group takes on the role of the talker and the other takes
-on the role of the listener. These roles switch back and forth as each
-side raise their points and tries to influence the other group. In some
-cases, however, the talker stays the talker then entire time. In other
-cases the talker and the listener are the same person, which allows this
-subsystem to be used to explore a single characters Motivations and
-momentous decisions.
+The most simple form of a Discussion is when the people involved fall
+into two groups: one group is trying to influence the other. The first
+group can be called the "talkers" and the other the "listeners."
+However, in most Discussions, both groups are looking to influence the
+other group in some way, meaning they will fluidly switch roles back and
+forth. Finally, in some Discussions there is only one participant who is
+involved in self-reflection as they try to make a decision or come to a
+conclusion. In this case, that person is both the talker and the
+listener.
 
-A discussion is made up of Appeals. Each Appeal consists of the players
-role-playing the words and actions of their characters as well as a few
-rolls of the dice to resolve how the motivations of the listener may
-have changed.
+Regardless of the situation, the Discussion is made up of appeals. Each
+appeal consists of the players role-playing the words and actions of
+their characters as well as a few rolls of the dice. If the appeal is
+successful, the listener will gain a new Driving Motivation.
 
 During a discussion, role-play dictates who the talker is at any given
-moment, and when they make Appeals. If one group does not wish to have
-an Appeal made to them, they can try to escape (through the Contested
+moment, and when they make appeals. If one group does not wish to have
+an appeal made to them, they can try to escape (through the Contested
 Movement subsystem), turn to violence (through the Hand-to-Hand
 subsystem), or otherwise remove the talker from their presence. However,
-if the two groups are in each other's presence, Appeals cannot simply be
-ignored. Once a listener has heard three Appeals (successful or not),
-they can choose to ignore further Appeals until a new discussion begins.
+if the two groups are in each other's presence, appeals cannot simply be
+ignored. Once a listener has heard three appeals (successful or not),
+they can choose to ignore further appeals until a new discussion begins.
 A new discussion cannot begin if the situation (as relevant to the topic
-of the Appeals) hasn't changed. (This rule is in place to stop players
+of the appeals) hasn't changed. (This rule is in place to stop players
 from re-hashing the same arguments over and over).
 
 ++++++++++++
@@ -295,22 +311,28 @@ from re-hashing the same arguments over and over).
     concerns, questions, or counters of the listener, etc. It shouldn't
     feel too mechanical or constraining.
 2.  The table decides the skill and motivation that will be used in the
-    Appeal rolls. Typically, the talker will state which skill and
+    appeal rolls. Typically, the talker will state which skill and
     motivation they were expecting to use, and the rest of the table
     will agree. The skill will most often be one of Convince, Lead, or
-    Administer depending on the tone and content of the Appeal. (Other
+    Administer depending on the tone and content of the appeal. (Other
     skills may be allowed if they are a better match). Which motivation
     largely depends on the action/response suggested to the listener.
-3.  The table decides the appropriate difficulty of the skill check.
-    This should almost always be 2 or 3. If the listener already has a
-    Driving Motivation for the context and topic, the difficulty is 3.
+3.  The table decides the appropriate difficulty of the skill check. If
+    the listener does not have a Driving Motivation for the topic being
+    considered, the difficulty should almost always be 2 or 3. If the
+    listener does have a Driving Motivation for the context and topic,
+    the difficulty is the skill rating used for the appeal that gave
+    them the Driving Motivation.
 4.  The talker rolls their skill check. If the skill check is
     successful, the listener rolls a 12-sided dice and compares to the
     strength of their motivation. If the result of the dice is equal or
     lower to the strength of the motivation, then that motivation
     becomes the Driving Motivation in the context of the topic
-    established through role-play. The context, topic, and Driving
-    Motivation should be written on the listener's character sheet.
+    established through role-play. The Driving Motivation (including the
+    context, topic, and the motivation itself) should be written on the
+    listener's character sheet to ensure that it is played out. The
+    skill rating of the talker should also be written in case someone
+    tries to change this Driving Motivation.
 
 ++++++++++++
 +  2.03    + Character Motivations
@@ -336,7 +358,7 @@ reflect this his rating for Humble would be 2.
 ::::::::::::
 :  2.03.01 : Driving Motivations
 
-As described in 2.02, an Appeal can cause one of a character's
+As described in 2.02, an appeal can cause one of a character's
 motivations to become the Driving Motivation with respect to a specific
 context and topic.
 
@@ -347,30 +369,48 @@ situations that do not involve the specific context and topic of the
 Driving Motivation, the player is free to make decisions for the
 character as the like. However, whenever that context and topic does
 come up, the character's actions should most closely match the Driving
-Motivation that has been assigned, and not any of the other Motivations.
+Motivation that has been assigned, and not any of the other motivations.
 
 A character can have multiple Driving Motivations, as long as they each
-have different contexts and topics. If a successful Appeal is made
+have different contexts and topics. If a successful appeal is made
 involving a context and topic that already has a Driving Motivation, the
-old Driving Motivation is replaced.
+old Driving Motivation is replaced. If the context and topic change to
+the degree that the Driving Motivation is not relevant, then it can be
+considered "played out" and is removed.
 
 ::::::::::::
-:  2.03.02 : Values of Motivations
+:  2.03.02 : Character Growth
 
-When generating a character, the 9 Motivational pairs should be
+Characters who have been influenced to behave in certain ways can learn
+from their experiences. If their actions as a result of a Driving
+Motivation lead to negative consequences, they may choose to reduce the
+rating of the motivation by a value of 1.
+
+For example, after a Discussion with his sister Ella Avitch, Morten
+gains the Driving Motivation of Pride/Arrogance with respect to a rival
+noble claiming to be a better swordsmen. This leads to Morten
+challenging the rival to a duel, which is played out through a Hand-to-
+Hand scene. If Morten loses the duel, he may choose to lower his
+Pride/Arrogance motivation from 10 to 9. (The motivation pair would now
+be Modest/Humble 2, Proud/Arrogant 9 - it will no longer add to 12).
+
+::::::::::::
+:  2.03.03 : Motivation Ratings & Generation
+
+When generating a character, the 9 motivational pairs should be
 assigned the following pairs of ratings: 2 and 10 (one pair), 3 and 9
 (two pairs), 4 and 8 (three pairs), 5 and 7 (two pairs), and 6 and 6
 (one pair). The rating pairs are assigned randomly: first which assign
-the rating pairs to the Motivation pairs with an equal likelyhood, then
+the rating pairs to the motivation pairs with an equal likelyhood, then
 randomly (50% chance) switch the order of the rating pair.
 
-For example, when generating Motivation ratings for Morten Avitch, a
-10-sided die is rolled to determine which Motivation pair receives the
+For example, when generating motivation ratings for Morten Avitch, a
+10-sided die is rolled to determine which motivation pair receives the
 2 and 10 (if the result is 10, the die is rerolled). The result is a 5,
-meaning the fifth Motivation pair: Modest/Humble vs Proud/Arrogant. Then
-an 8-sided die is rolled to determine which Motivation pair receives one
+meaning the fifth motivation pair: Modest/Humble vs Proud/Arrogant. Then
+an 8-sided die is rolled to determine which motivation pair receives one
 of the 3 and 9s. The result is a 7, meaning the seventh unassigned
-Motivation pairs: Trusting vs Independent.
+motivation pairs: Trusting vs Independent.
 
 Once all the rating pairs have been assigned, a single die is rolled for
 each. If the result is even, the order of the rating pair is switched.
@@ -389,17 +429,18 @@ role-play multiple different personalities, especially when they are
 playing multiple characters. The motivations can voluntarily be used by
 players any time they are unsure of how the character would act, or they
 want a reference for the personality of the character. The simplest way
-to do this is to choose the Motivation pair that best matches the
+to do this is to choose the motivation pair that best matches the
 upcoming decision, and role-play the character in a way that matches the
-higher rated of the two Motivations.
+higher rated of the two motivations.
 
-The Appeal mechanic is also meant to provide both mechanics and
+The appeal mechanic is also meant to provide both mechanics and
 inspiration to players looking to role-play social interactions. The
 subsystem has been designed to avoid a number of pitfalls of mechanized
 social interactions:
 -   it doesn't reduce the interaction to a single roll that can occur
     without role-play,
--   it doesn't present an obvious best argument to the talker leaving
-    the talker feeling like the mechanics are dictating their actions,
+-   it doesn't present an obvious "best move" to the talker, and so
+    doesn't cause the talker to feel like the mechanics are dictating
+    their actions,
 -   it doesn't force the listener too tightly into taking actions they
-    don't want to take.
+    don't want to take (it isn't mind-control).
