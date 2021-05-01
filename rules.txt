@@ -539,3 +539,15 @@ social interactions:
     their actions,
 -   it doesn't force the listener too tightly into taking actions they
     don't want to take (it isn't mind-control).
+
+***** NOTES that need to be organized *****
+
+Campaigns: Worldbuilding
+
+Magic: Characters (whether main characters or otherwise) cannot do magic, though they may come across magical objects, locations, or effects and could be capable of interacting with those effects.
+
+Society: It is assumed that most people in the setting are farmers scratching out a living, as was the case for much of Earth's history. At least 90% of the people in a given region live in a rural setting. The few people who are rich or who have unusual talents tend to be the ones who end up ruling, adventuring, and being main characters.
+
+Politics: A large part of the game involves main characters exerting influence on each other through their words. Therefore, a setting with simple politics or a lack of opportunity for disagreements, differences of opinions or methods, or with all power flowing through a monolythic organization is not likely to be a good setting.
+
+Technology: If the level of technology is thought of on a sliding scale of increasing technology, then the rules will work best with a setting that matches the technologies found in the range from the Ancient Greeks to the Ancient Romans to the Late Middle Age Europeans. In other words, societies and trade are organized enough to have travel across fairly large distances and to have moderately large cities. Travel is done by walking, with beasts of burden such as horses or oxen, or by sailing or rowing ships. Tools are hand-made out of wood, stone, and metals such as bronze, iron, and early forms of steel. Medical science is very limited. Technologies that may not be compatible with the rules of the game would include gunpowder (other than the most rudimentary forms), electricity, steam power, and industrialized machinery.
