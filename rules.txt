@@ -321,8 +321,8 @@ from re-hashing the same arguments over and over).
     the listener does not have a Driving Motivation for the topic being
     considered, the difficulty should almost always be 2 or 3. If the
     listener does have a Driving Motivation for the context and topic,
-    the difficulty is the skill rating used for the appeal that gave
-    them the Driving Motivation.
+    the difficulty is either 3 or the skill rating used for the appeal
+    that gave them the Driving Motivation, whichever is higher.
 4.  The talker rolls their skill check. If the skill check is
     successful, the listener rolls a 12-sided dice and compares to the
     strength of their motivation. If the result of the dice is equal or
