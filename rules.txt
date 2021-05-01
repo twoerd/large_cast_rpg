@@ -3,17 +3,11 @@
 ############
 
 1   General
-    1.01 Introduction (todo)
-        -   What genre of story
-        -   what genre / type of setting
-        -   number of players
-        -   vibe of game
-        -   The 4 subsystems:
-            -   Decisions & Discussions
-            -   Travel & Contested Movement
-            -   Hand-to-Hand
-            -   Mass Combat
-        -   Characters
+    1.01 Introduction
+        1.01.01 The Stories of [Insert Name of RPG]
+        1.01.02 The Settings of [Insert Name of RPG]
+        1.01.03 The Players of [Insert Name of RPG]
+        1.01.04 The Mechanics of [Insert Name of RPG]
     1.02 General Mechanics
         1.02.01 Skill Checks
         1.02.02 Skill Check Examples
@@ -43,6 +37,88 @@
 
 ++++++++++++
 +  1.01    + Introduction
+
+::::::::::::
+:  1.01.01 : The Stories of [Insert Name of RPG]
+
+A common feature of fantasy stories, especially the sorts of fantasy
+stories found in long books and series, is that they follow many
+characters through many plots. In a book about a fantasy war, one
+character might be at the king's court and is involved in the decision
+making, another might be with the army taking part in the day-to-day
+campaigning, and a third might be captured by the enemy, learn some
+important new information, and need to escape and make their way back to
+their homeland with that information.
+
+The [Insert Name of RPG] is meant to play out these sorts of stories.
+Instead of the more traditional "party" based structure that most
+tabletop role-playing games use, the players in this game each control
+3-5 main characters. This results in a cast of main characters. These
+characters will be rulers of their town, region, or nation, engage with
+political discussions and decision-making, lead their people into
+battle, fight their enemies, and go on adventures. Together, their
+actions will define the fate of the region.
+
+::::::::::::
+:  1.01.02 : The Settings of [Insert Name of RPG]
+
+There is not a single defined setting for this game. However, the
+equipment, characters, and capabilities give implied parameters on the
+setting. This game was designed for fantasy settings where there is
+little to no magic, the populace is mostly poor, rural, and uneducated,
+the politics are fragmented and shifting, and the technology is pre-
+gunpowder but will into city-building. In short, most settings that are
+similar to real-world culture from 500 BC to 1500 AD would be good
+inspiration for the types of settings that will work with this game.
+
+::::::::::::
+:  1.01.03 : The Players of [Insert Name of RPG]
+
+All players in [Insert Name of RPG] will take on the control of many
+characters. They will also need to be proactive: coming up with goals
+and taking action to achieve that goal. Additionally, the mechanics can
+fairly easily end up in characters being influenced into poor decisions,
+in characters failing to succeed at their goals, or characters being
+gravely injured or killed.
+
+For this reason, the type of players who are most likely to enjoy this
+game are players who are proactive, can handle meta-information without
+it affecting their characters' actions too much, and who are willing to
+carry out actions for their characters that they (the player) think is a
+poor course of action.
+
+::::::::::::
+:  1.01.04 : The Mechanics of [Insert Name of RPG]
+
+The mechanics revolve around four subsystems: Discussions, Contested
+Movement, Hand-to-Hand Combat, and Mass Combat. Much of the game will
+consist of individual scenes strung together. Each scene will be played
+out through one of these subsystems and will involved different
+characters and locations as dictated by the events in the game. For
+scenes that don't fall under one of the subsystems, the game will fall
+back on more free form role-play aided by a skill check mechanic.
+
+The subsystems are designed to flow into each other. For example,
+suppose Lady Ella Avitch wants to lead a raid against a town ruled by
+neighbouring lord. This could play out as a string of scenes:
+
+First, the decision to carry out the raid, and potentially the decisions
+around the type of raid, the time, etc. could be a Discussion scene as
+Lady Ella consults her advisors and key warriors.
+
+Then, they would gather their raiding party and set off to the town
+using a Contested Movement scene, which would also provide the
+opportunity for the townsfolk to become aware of the raid and move into
+position.
+
+Once the raiding party comes face to face with the defenders, a Mass
+Combat scene could be used to resolve that interaction.
+
+Within this battle, Lady Ella might meet the neighbouring lord's master
+at arms in single combat with a Hand-to-Hand scene.
+
+Finally, depending on how this all plays out, one side of the other
+might seek out a parley with a Discussion scene.
 
 ++++++++++++
 +  1.02    + General Mechanics
