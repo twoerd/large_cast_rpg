@@ -15,6 +15,13 @@
     1.03 Skills
         1.03.01 Skill Rating Generation
     1.04 Conditions (todo)
+    1.05 The Structure of a Campaign
+        1.05.01 Worldbuilding
+        1.05.02 Characters
+        1.05.03 Calendars & Timekeeping
+        1.05.04 Economics
+        1.05.05 External Events
+    1.06 The Structure of a Session
 
 2   Decisions & Discussions
     2.01 Description of a Discussion
@@ -335,18 +342,202 @@ are not described here. Any spreadsheet program can do this fairly
 easily.
 
 The value of knowing this distribution is that it aids in worldbuilding.
-For example, if you have an army of 2,000 soldiers, you know that
-(2,000) * (250+42+7+1)/1,000,000 = 0.6 of them will have a rating 7 or
-higher. In other words, such a rating should be reserved for the
-absolute elite of the elite. If a nation with a population of 3,000,000
-puts in significant effort to find and train everybody between the age
-of 15 to 25 (about 15% of the population, or 450,000 people) with a
-skill of 7 or higher in the Hand-to-Hand group, they will find 135
-people. (Of course, such a logistical undertaking would be enormous - it
-would be an accomplishment to even find 10 of these people).
+For example, if an army has 2,000 soldiers,
+(2,000) * (250+42+7+1)/1,000,000 = 0.6
+of them will have a rating 7 or higher. In other words, an army that
+size might have one person who is that skilled. Such a rating should be
+reserved for the absolute elite of the elite. In a similar way, if a
+nation with a population of 3,000,000 puts in significant effort to find
+and train everybody between the age of 15 to 25 (about 15% of the
+population, or 450,000 people) with a skill of 7 or higher in the
+Hand-to-Hand group, they will find 135 people. (Of course, such a
+logistical undertaking would be enormous - it would be an accomplishment
+to even find 10 of these people).
 
 ++++++++++++
 +  1.04    + Conditions
+
+++++++++++++
++  1.05    + The Structure of a Campaign
+
+[include a note about whether there is a GM: is there?]
+
+::::::::::::
+:  1.05.01 : Worldbuilding
+
+At the beginning of a campaign the players will need a setting, and
+therefore will need to do some worldbuilding or at minimum do some
+research into a setting. Whether the worldbuilding is done by one player
+or by all players together, it is strongly advised that all players have
+a decent sense of the history, culture, and geography of the setting.
+This knowledge will make the creation of characters (in the next
+section) much easier.
+
+There is quite a range of settings that will work well with this game
+but there are also boundaries that, if crossed, will either cause
+problems or will not be supported by the rules.
+
+Magic: There are no rules in the game to support characters (whether
+main characters or otherwise) doing magic. Therefore, it is by far
+easiest if the setting reflects this, and features minimal magic. If
+magic is desired, the easiest way to include it would be through the
+characters coming across magical objects, locations, or effects. The
+characters can then interact with magic and try to find good ways to
+make use of it. While this will take some homebrew work in terms of
+determining the magical effects, handling magic this way will keep magic
+fairly contained without requiring extensive rules.
+
+Society: It is assumed that most people in the setting are farmers
+scratching out a living, as was the case for much of Earth's history. At
+least 90% of the people in a given region live in a rural setting. The
+few people who are rich or who have unusual talents tend to be the ones
+who end up ruling, adventuring, and being main characters.
+
+Politics: A large part of the game involves main characters exerting
+influence on each other through their words. Therefore, a setting with
+simple politics or a lack of opportunity for disagreements, differences
+of opinions or methods, or with all power flowing through a monolithic
+organization is not likely to be a good setting. Some political
+situations that are ripe for conflict and drama include feudal systems,
+city-states with a common culture and high amount of interaction, and
+empires whose regions maintain a strong sense of independence.
+
+Technology: The rules of the game assume a certain technological range:
+-   Travel on land is done by walking or through the aid of beasts of
+    burden,
+-   Travel on sea is done by row or sail powered ships,
+-   Communication is no faster than messengers travelling as above,
+-   Tools are hand-made from wood, stone, and metals such as bronze,
+    iron, and early forms of steel,
+-   Writing is known but restricted to hand-written forms, limiting
+    books and reading to those who are wealthy or trained,
+-   Medical science is very limited.
+Technologies that may not be compatible with the rules of the game
+include firearms & gunpowder, electricity, steam power, and
+industrialized machinery.
+
+::::::::::::
+:  1.05.02 : Characters
+
+Once a setting has been established, the players will need to create
+the main characters. Each player will control 3-5 characters, depending
+on their ability to keep track of multiple characters and their
+motivations. In addition to controlling their main characters, one
+player will control any additional character as needed for a given
+scene.
+
+Once the number of main characters is determined, the skill ratings for
+the characters are randomly generated using the process described in
+section 1.03.01. Motivations are randomly generated using the process
+described in section 2.03.03. These two sets of ratings form the bulk of
+each main characters numerical description. Other information associated
+with main characters will tend to be qualitative: descriptions, names,
+relationships, goals, etc.
+
+With the list of character ratings created, the players will go through
+a selection and character creation process. Randomly determine an order
+for the players (rolling a 20-sided die, with re-rolls to break any
+ties, is a good method). In that order, the players each select one of
+sets of ratings. They add to the character a name, a context, where the
+character lives, other characters that they have relationships with, an
+occupation or place in society, an outline of a backstory, etc. This
+information can be created on the spot, drawn from the worldbuilding
+done previously, or drawn from other characters that have been created.
+They should also have some goals in mind for the character, though the
+goals do not have to be shared with the group. All this information
+should be added to the skill and motivation ratings and written down on
+the character sheet.
+
+This selection process is repeated but with the order reversing each
+round until all characters have been created.
+
+If a character dies, the best way to handle it is to "upgrade" another
+character within the story to the status of main character. If that
+character already has skill and motivation ratings, they are maintained.
+If they do not, then ratings can be generated as described in sections
+1.03.01 and 2.03.03.
+
+::::::::::::
+:  1.05.03 : Calendars & Timekeeping
+
+In order to handle all the characters and their actions, the players
+should collectively keep a calendar. At the end of scenes that take less
+than a day, the most likely next scene for the involved characters
+should be marked on the calendar. Then the calendar can used to
+determine which scene should be played next. For scenes that take longer
+than a day (in particular long-distance Contested Movement), the players
+may need to pause the scene to jump over to another scene.
+
+Events and circumstances that are not scenes should also be marked on
+the calendar. For example, if a character orders a large number of ships
+to be built, the completion date should be marked. If a character is
+healing from wounds, the date of each of their successful healing rolls
+(see section 00.00.00) should be marked. If a character begins a journey
+that is not Contested Movement, their expected arrival date should be
+marked.
+
+Whenever the group is uncertain how much time a given activity should
+take, they should discuss to arrive at a logical amount of time.
+
+::::::::::::
+:  1.05.04 : Economics 
+
+This is not primarily a game about economics, but a game about politics,
+leadership, and regional interaction, will inevitably involve economic
+matters at some point. To handle this, each political unit and/or
+character gets a wealth rating (it is assumed that in the setting,
+individual wealther and political power are very tightly related, and
+that the wealth of a political unit is largely under the control of the
+ruler of that unit). As far as the subsystems go, the most immediate
+effect of this wealth rating is in the size and quality of the
+character's army, if they have one. Wealth ratings can be changed
+through the 4 subsystems. A good rule of thumb is that a wealth rating
+can be changed one level for at the conclusion of three successful
+scenes played out through the subsystems. Additionally, the wealth
+rating can change by a maximum of one level each year. The consequences
+of changing wealth levels should be put into place on a yearly basis.
+This is easiest to do if there is a season where less scenes occur (such
+as winter, or a monsoon season).
+
+The wealth ratings are 1, 1.25, 1.5, 2, 2.5, 3, 3.75, 4.75, 6, 7.5, 9.5,
+and 11.5. The wealth rating for each political unit should be determined
+during worldbuilding. Once this is done, the exact amount of goods, men,
+cities, and ships that the wealth rating can support is reverse-
+engineered to match the worldbuilding.
+
+::::::::::::
+:  1.05.05 : External Events
+
+Should the campaign need some shaking up (due to inaction on the part of
+the players), an external event can be used. These events are external
+to the main characters, not necessarily the political unit of the main
+characters. They are meant to represent the world around the main
+characters changing in a way that forces the main characters to take
+action or provides them with opportunities to take advantage of. When an
+external event is needed roll two 10-sided dice, using one as the first
+digit and the other as the second digit to obtain a number from 0 to 99,
+and consult the table below.
+
+ 0 -  5  Two neighbouring political units go to war against each other.
+ 6 - 11  A neighbour political unit begins a war against a main
+         character's political unit.
+12 - 17  A neighbouring country offers to join in alliance with a main
+         character's political unit.
+18 - 23  A neighbouring country seeks out a trade deal with a main
+         character's political unit.
+24 - 29  A plague strikes (with a random chance - about 5% - of killing
+         each main character and other important characters).
+30 - 36  A natural disaster, such as a storm, fire, earthquake, or
+         volcano occurs.
+37 - 43  There is a crop failure.
+44 - 50  A resource such as iron, lumber, gold, or silver runs out.
+51 - 57  A new land is discovered.
+58 - 64  A new monster is discovered or appears.
+65 - 71  A small number of people learn to cast spells and do magic.
+72 - 78  Magic items are discovered.
+79 - 85  A new intelligent species is discovered or appears.
+86 - 92  The common people revolt against the ruling class.
+93 - 99  A new religion begins or arrives.
 
 ############
 #  2       # Decisions and Discussions
@@ -539,15 +730,3 @@ social interactions:
     their actions,
 -   it doesn't force the listener too tightly into taking actions they
     don't want to take (it isn't mind-control).
-
-***** NOTES that need to be organized *****
-
-Campaigns: Worldbuilding
-
-Magic: Characters (whether main characters or otherwise) cannot do magic, though they may come across magical objects, locations, or effects and could be capable of interacting with those effects.
-
-Society: It is assumed that most people in the setting are farmers scratching out a living, as was the case for much of Earth's history. At least 90% of the people in a given region live in a rural setting. The few people who are rich or who have unusual talents tend to be the ones who end up ruling, adventuring, and being main characters.
-
-Politics: A large part of the game involves main characters exerting influence on each other through their words. Therefore, a setting with simple politics or a lack of opportunity for disagreements, differences of opinions or methods, or with all power flowing through a monolythic organization is not likely to be a good setting.
-
-Technology: If the level of technology is thought of on a sliding scale of increasing technology, then the rules will work best with a setting that matches the technologies found in the range from the Ancient Greeks to the Ancient Romans to the Late Middle Age Europeans. In other words, societies and trade are organized enough to have travel across fairly large distances and to have moderately large cities. Travel is done by walking, with beasts of burden such as horses or oxen, or by sailing or rowing ships. Tools are hand-made out of wood, stone, and metals such as bronze, iron, and early forms of steel. Medical science is very limited. Technologies that may not be compatible with the rules of the game would include gunpowder (other than the most rudimentary forms), electricity, steam power, and industrialized machinery.
