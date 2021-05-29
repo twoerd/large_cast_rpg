@@ -34,9 +34,23 @@
 
 3   Travel & Contested Movement (todo)
 
-4   Hand-to-Hand (todo)
+4   Hand-to-Hand Combat
+    4.01 Rounds
+    4.02 Footwork, Movement, and Fight Distance
+    4.03 Actions
+        4.03.01 Attack Actions
+        4.03.01 Set-up Actions
+        4.03.02 Special Actions
+    4.04 Defenses
+        4.04.01 Defensive Weakening
+    4.05 Equipment
+        4.05.01 Weapons
+        4.05.02 Armour and Shields
+    4.06 Wounds
+    4.07 Conditions
+    4.08 Multi-Combatant Combat
 
-4   Mass Combat (todo)
+5   Mass Combat (todo)
 
 ############
 #  1       # General
@@ -730,3 +744,385 @@ social interactions:
     their actions,
 -   it doesn't force the listener too tightly into taking actions they
     don't want to take (it isn't mind-control).
+
+############
+#  4       # Hand-to-Hand Combat
+############
+
+The Hand-to-Hand combat subsystem uses the Hand-to-Hand skills (Control,
+Fighting Mind, Speed, and Strength) to calculate additional ratings. The
+calculations of these ratings are described in their sections. Some of
+the calculations involve a choice. Each combatant can make this choice
+before beginning combat, but cannot change any of their choices during
+combat.
+
+++++++++++++
++  4.01    + Rounds
+
+Each round consists of a Footwork contest, then the actions of the
+combatants. The Footwork contest establishes the positioning of the
+combatants. Then, both combatants choose (secretly) the action they
+would like to take. Once both have chosen, both actions are resolved.
+The consequences of the actions do not affect these rolls. At the end of
+the round, new consequences are applied, old consequences are removed as
+necessary, and if it is an even-numbered round, the Defensive Weakening
+is increased.
+
+++++++++++++
++  4.02    + Footwork, Movement, and Fight Distance
+
+Hand-to-Hand combat takes place in a 1 meter grid (or 3 feet). Diagonals
+count equally to non-diagonals. At any given moment, the fight has a
+distance determined by the arrangement of the combatants. There are 3
+distances: Dagger distance (adjacent), Sword distance (1 empty space
+between combatants), and Spear distance (2 empty spaces between
+combatants). The fight distance can be changed by the Footwork contest
+or some actions.
+
+Fight Distance, with C1 as Combatant 1 and C2 as Combatant 2:
+  Dagger            Sword                  Spear
++----+----+    +----+----+----+    +----+----+----+----+
+| C1 | C2 |    | C1 |    | C2 |    | C1 |    |    | C2 |
++----+----+    +----+----+----+    +----+----+----+----+
+     | C2 |         |    | C2 |         |    |    | C2 |
+     +----+         +----+----+         +----+----+----+
+                         | C2 |              |    | C2 |
+                         +----+              +----+----+
+                                                  | C2 |
+                                                  +----+
+
+A Footwork contest consists of a single skill check: one combatant's
+Footwork rating against the other's. Footwork is equal to the
+character's choice of Speed or Fighting Mind. The winner of the Footwork
+contest may move 0 or 1 space.
+
+The Fight Distance can give a -1 penalty to any action or to Parry
+defenses that don't match the Fight Distance. For example, if the combat
+is at Spear distance, an attack or parry with a sword will have a -1
+penalty.
+
+If a character cannot move, then they cannot take actions if the Fight
+Distance is greater than the distance of their action. For example, a
+character that is PRONE cannot attack an enemy at Spear distance with a
+sword, nor can they Push the enemy.
+
+++++++++++++
++  4.03    + Actions
+
+::::::::::::
+:  4.03.01 : Attack Actions
+
+Quick Attack: a quick but less impactful attack
+-   Calculation: choice of Speed or Strength
+-   Strong effect: The victim can choose one body part to protect, then
+    the attacker can give a Minor Wound to one of the remaining
+    body parts.
+-   Weak effect: The victim must choose a body part, then the attacker
+    can give a Minor Wound to that body part. The attacker suffers a -2
+    penalty to all defenses for the following 2 rounds.
+-   Defended by: Dodge or Parry, plus Armour
+-   Distance: determined by weapon
+
+Vicious Attack: a strong but wild and uncontrolled attack
+-   Calculation: Strength - 1
+-   Strong effect: The victim is wounded randomly. There is a 66% chance
+    (2/3) of 2 Minor Wounds, and a 33% chance (1/3) of 1 Major Wound.
+    The body part is randomly chosen at equal probability. If the body
+    part already has a Major Wound, an adjacent body part receives a
+    Minor Wound.
+-   Weak effect: The attacker suffers a -4 penalty to all defenses for
+    the following 2 rounds.
+-   Defended by: Dodge or Parry, plus Armour
+-   Distance: determined by weapon
+
+Controlled Attack: a devastating attack capable of killing in one blow
+-   Calculation: choice of Control - 2 or Speed - 2
+-   Strong effect: The attacker gives a Major Wound to a body part of
+    their choosing.
+-   Weak effect: The attacker suffers a -4 penalty to all defenses for
+    the following 2 rounds.
+-   Defended by: Dodge or Parry, plus Armour
+-   Distance: determined by weapon
+
+::::::::::::
+:  4.03.01 : Set-up Actions
+
+Tackle: a type of grapple that greatly restricts motion and movement
+-   Calculation: choice of Fighting Mind - 1 or Strength - 1
+-   Strong effect: The victim is TACKLED.
+-   Weak effect: The victim suffers a -1 penalty to Control, Speed, and
+    Strength for the following 2 rounds. The attacker suffers a -3
+    penalty to all defenses for the following 2 rounds.
+-   Defended by: Dodge or Strength
+-   Distance: always Dagger distance
+-   Restrictions: must have a free hand in order to Tackle
+
+Bash: a strong smash against the defender's arms intended to weaken and
+    jar them
+-   Calculation: Strength
+-   Strong effect: The victim suffers a -3 penalty to Control and
+    Strength for the following 2 rounds.
+-   Weak effect: The victim suffers a -1 penalty to Control and Strength
+    for the following 2 rounds.
+-   Defended by: Dodge or Parry
+-   Distance: determined by weapon
+
+Flurry: a barrage of quick attacks meant to confuse a defender and
+    create an opening
+-   Calculation: Speed
+-   Strong effect: The victim suffers a -3 penalty to Fighting Mind and
+    Control for the following 2 rounds.
+-   Weak effect: The victim suffers a -1 penalty to Fighting Mind and
+    Control for the following 2 rounds.
+-   Defended by: Dodge or Parry
+-   Distance: determined by weapon
+
+Feint: an attempt to mislead the defender into setting up defenses that
+will not be needed
+-   Calculation: choice of Fighting Mind or Speed
+-   Strong effect: The victim suffers a -3 penalty to Fighting Mind and
+    Control for the following 2 rounds.
+-   Weak effect: The victim suffers a -1 penalty to Fighting Mind and
+    Control for the following 2 rounds.
+-   Defended by: Fighting Mind
+-   Distance: determined by weapon
+
+Hold: a type of grapple that restricts motion and movement
+-   Calculation: choice of Control or Strength
+-   Strong effect: The victim is HELD.
+-   Weak effect: The victim suffers a -1 penalty to Speed and Strength
+    for the following 2 rounds.
+-   Defended by: Dodge or Parry
+-   Distance: always Dagger distance
+-   Restrictions: must have a free hand in order to Hold
+
+Push: a use of the arms, shoulders, hips, or feet to force movement
+-   Calculation: Strength
+-   Strong effect: The victim suffers a -3 penalty to Control and Speed
+    for the following 2 rounds, and is pushed back one space (the
+    attacker chooses which space). The attacker can follow the enemy to
+    be at Dagger or Sword distance.
+-   Weak effect: The victim suffers a -1 penalty to Control and Speed
+    for the following 2 rounds.
+-   Defended by: Dodge or Strength
+-   Distance: always Dagger distance
+
+Trip: an interference with the legs to cause the enemy to fall
+-   Calculation: Control
+-   Strong effect: The victim suffers a -3 penalty to Speed for the
+    following 2 rounds and is PRONE.
+-   Weak effect: The victim suffers a -1 penalty to Speed for the
+    following 2 rounds.
+-   Defended by: Dodge or Strength
+-   Distance: determined by weapon
+
+::::::::::::
+:  4.03.02 : Special Actions
+
+Stand Up: this action allows a PRONE character to end that condition. If
+chosen, it automatically succeeds.
+
+Break Hold: this action allows a HELD character to end that condition.
+The HELD character makes a skill check of their Hold rating against the
+enemy's.
+
+Break Tackle: this action allows a TACKLED character to end that
+condition. The TACKLED character makes a skill check of their Tackle
+rating against the enemy's.
+
+++++++++++++
++  4.04    + Defenses
+
+There are 4 defenses: Dodge, Parry, Strength, and Fighting Mind. Most
+actions give a choice of defenses. When an enemy attempts an action, the
+defender may choose which defense they would like to use.
+
+Dodge:
+-   Calculation: Speed
+-   In the process of Dodging, the defender must move one space back. If
+    C2 is the combatant that is Dodging, they can move to the following
+    squares:
+    Combatants In-line:             Combatants Offset:
+         +----+                     +----+
+         | C1 |                     | C1 |
+         +----+                     +----+----+----+
+         | C2 |                          | C2 |    |
+    +----+----+----+                     +----+----+
+    |    |    |    |                     |    |    |
+    +----+----+----+                     +----+----+
+    If there is no valid square to Dodge to, the defender cannot Dodge.
+-   This movement is required whether the Dodge is succesful or not. In
+    both cases, the attacker can choose to move one space towards the
+    defender.
+
+Parry:
+-   Calculation: choice of Control - 2 or Fighting Mind - 2
+-   In order to Parry, the defender must have either a weapon or a
+    shield.
+-   For the purposes of distance penalties, Parries have a distance
+    determined by the weapon. When Parrying with a shield, no distance
+    penalty can occur.
+-   Unlike actions, it is possible to Parry at greater distances even if
+    the defender cannot move. This is because the attack must come to
+    the defender.
+
+Strength: when Strength is used as a defense, the Strength rating is
+used.
+
+Fighting Mind: when Fighting Mind is used as a defense, the Fighting
+Mind rating is used.
+
+::::::::::::
+:  4.04.01 : Defensive Weakening
+
+Hand-to-Hand combat takes energy. As a fight progresses longer the
+combatants lose their ability to defend. As part of the consequences of
+the 2nd, 4th, 6th, etc. rounds, all defenses gain a -1 penalty (this
+penalty accumulates, so that after the 4th round it is -2, after the 6th
+round it is -3, etc).
+
+The Defensive Weakening penalty applies to Strength and Fighting Mind
+only when they are used as defenses.
+
+++++++++++++
++  4.05    + Equipment
+
+::::::::::::
+:  4.05.01 : Weapons
+
+Weapons can give small penalties or bonuses to certain actions or
+defenses. If a two-handed weapon is used with only one hand, it has a -2
+to all actions and defenses.
+
+Dagger (Dagger Distance): -2 Parry
+Rock (Dagger Distance): no Parry, -2 attacks
+Hands (Dagger Distance): no Parry*, -4 attacks. (*unless the enemy is
+    also unarmed)
+
+Sword (Sword Distance)
+Club (Sword Distance): -1 Parry
+Hammer (Sword Distance): -1 Parry, +1 attacks
+Axe (Sword Distance): -1 Parry, +1 attacks
+Fencing Sword (Sword Distance): -1 attacks
+Big Sword (Sword Distance): +1 attacks, two-handed
+
+Spear (Spear Distance)
+Staff (Spear Distance): -1 attacks
+Halberd (Spear Distance): +1 attacks, two-handed
+
+::::::::::::
+:  4.05.02 : Armour and Shields
+
+A shield gives a +1 bonus to Parry defenses and cannot suffer a distance
+penalty.
+
+Armour is assumed to apply to all parts of the body equally. There are
+three types of armour:
+
+Metal plate armour, which gives a +4 defense against attacks,
+Other metal armour, which gives a +2 defense against attacks,
+Other armour, which gives a +1 defense against attacks.
+
+For example, a character with a shield and metal plate armour and a
+Control rating of 3 will have a Parry rating of 3 - 2 + 1 = 2. When
+defending an attack, this increases to a rating of 2 + 4 = 6.
+
+++++++++++++
++  4.06    + Wounds
+
+Wounds can apply to any of 6 body parts: the two arms, the two legs, the
+body, and the head. Wounds have two severities: Minor Wounds and Major
+Wounds. The effect of a wound depends on its location and severity. The
+third Minor Wound on a given body part turns the first two Minor Wounds
+into a Major Wound.
+
+Arms: Minor Wounds have no immediate effect. Major Wounds cause the arm
+(and whatever weapons or shields it is holding) to become useless.
+
+Legs: Minor Wounds have no immediate effect. Major Wounds cause the leg
+to become useless and the victim to be PRONE until the Major Wound is
+healed. Outside of Hand-to-Hand combat, the victim can walk slowly for
+short durations.
+
+Head: Minor Wounds cause a -2 penalty to all Hand-to-Hand ratings until
+healed. Major Wounds cause the victim to be incapable doing anything,
+and the victim will die within the hour unless medical aid is given. An
+enemy can kill the victim with an action (no skill check required).
+
+Healing: The victim must make a roll each day for each wounded body
+part. After 4 successes, all wounds to that body part are healed. For
+Minor Wounds, roll a skill check as if the rating was 0 against 0. For
+Major Wounds, roll a skill check as if the rating was 0 against 4.
+
+++++++++++++
++  4.07    + Conditions
+
+PRONE: Cannot take the Push action, use the Dodge defense, participate
+in Footwork contests, or move. A Stand Up action will end this
+condition.
+
+HELD: Cannot participate in Footwork contests, or move. Additionally,
+suffers a -2 penalty to Speed and Strength. A Break Hold action will end
+this condition. For as long as a character is held, the Fight Distance
+is Dagger distance. If the enemy releases the Hold, uses their hand for
+another purpose, or is at a distance greater than Dagger distance, the
+condition ends.
+
+TACKLED: Cannot take the Push action, use the Dodge defense, participate
+in Footwork contests, or move. Additionally, suffers a -2 penalty to
+Control, Speed, and Strength. A Break Tackle action will end this
+condition. For as long as the character is held, the Fight Distance is
+Dagger distance. If the enemy releases the Tackle, uses their hand for
+another purpose, or is at a distance greater than Dagger distance, the
+TACKLED conditions ends, but the character is now PRONE.
+
+++++++++++++
++  4.08    + Multi-Combatant Combat
+
+If a Hand-to-Hand combat involves more than two combatants, it is broken
+up into multiple Hand-to-Hand combats. Each individual combat must be
+either 1 against 1, 1 against 2, 1 against 3, or 1 against 4. If one
+side outnumbers the other to the degree that there could be combats more
+lopsided than 1 against 4, there simply isn't enough room for all the
+combatants. The side with more people must attack in waves.
+
+If necessary the combatants are broken up before Hand-to-Hand combat
+begins. This process begins with the side that has the greater number of
+people. If the sides have the same number of people, it begins with the
+side of the character with the highest rating in Fighting Mind. If the
+sides are still equal, it begins with the side with the highest sum of
+Fighting Mind ratings.
+
+Alternating, each side will pick a combatant from their side and from
+the enemy side to "pair up". When all the participants in one side are
+"paired up," then any remaining combatants on the other side may choose
+to join in with the other pairs. They may not fight 1 against 3 unless
+all combats are 1 against 2 (a similar rule applies for fighting 1
+against 4). This pairing process is a bit mechanical, but it simulates
+how combatants fight against their nearest enemies.
+
+Initial positioning is determined by the groupings and by the fiction.
+If nothing else makes sense, simply line up with each combat at Spear
+distance, and a gap of one space between each combat.
+
+Each Hand-to-Hand combat plays out simultaneously. If an individual
+combat ends due to surrender, Wounds, death, or fleeing, the victors may
+choose to join another Hand-to-Hand combat. If joining would cause a 2
+against many situation, then that Hand-to-Hand combat splits as deter-
+mined by the positioning. Characters not in a Hand-to-Hand combat can
+move 3 spaces after the Footwork contests.
+
+Parrying: if a defender is fighting 1 against many, they can only Parry
+two actions.
+
+Dodging: if a defender is fighting 1 against many, they can Dodge any
+number of actions as long as their single move qualifies as a Dodge for
+those actions.
+
+Footwork Contests: if a combatant is fighting 1 against many, they can
+only move if they win a separate Footwork contest against each enemy.
+Otherwise, each enemy that won their Footwork contest can move one
+space.
+
+Actions: if a combatant is fighting 1 against many, they must choose who
+to direct their action against while choosing their action.
