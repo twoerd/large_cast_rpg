@@ -900,8 +900,9 @@ Push: a use of the arms, shoulders, hips, or feet to force movement
 -   Calculation: Strength
 -   Strong effect: The victim suffers a -3 penalty to Control and Speed
     for the following 2 rounds, and is pushed away one space (the
-    attacker chooses which space). The attacker can follow the enemy to
-    be at Dagger or Sword distance.
+    attacker chooses which space). This movement overrides any Dodge
+    movement. The attacker must approach the enemy to be at Dagger or
+    Sword distance.
 -   Weak effect: The victim suffers a -1 penalty to Control and Speed
     for the following 2 rounds.
 -   Defended by: Dodge or Strength
