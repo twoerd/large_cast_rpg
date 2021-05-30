@@ -867,7 +867,7 @@ Bash: a strong smash against the defender's arms intended to weaken and
 -   Defended by: Dodge or Parry
 -   Distance: determined by weapon
 
-Flurry: a barrage of quick attacks meant to confuse a defender and
+Flurry: a barrage of quick blows meant to confuse a defender and
     create an opening
 -   Calculation: Speed
 -   Strong effect: The victim suffers a -3 penalty to Fighting Mind and
