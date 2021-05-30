@@ -899,7 +899,7 @@ Hold: a type of grapple that restricts motion and movement
 Push: a use of the arms, shoulders, hips, or feet to force movement
 -   Calculation: Strength
 -   Strong effect: The victim suffers a -3 penalty to Control and Speed
-    for the following 2 rounds, and is pushed back one space (the
+    for the following 2 rounds, and is pushed away one space (the
     attacker chooses which space). The attacker can follow the enemy to
     be at Dagger or Sword distance.
 -   Weak effect: The victim suffers a -1 penalty to Control and Speed
@@ -939,18 +939,8 @@ defender may choose which defense they would like to use.
 
 Dodge:
 -   Calculation: Speed
--   In the process of Dodging, the defender must move one space back. If
-    C2 is the combatant that is Dodging, they can move to the following
-    squares:
-    Combatants In-line:             Combatants Offset:
-         +----+                     +----+
-         | C1 |                     | C1 |
-         +----+                     +----+----+----+
-         | C2 |                          | C2 |    |
-    +----+----+----+                     +----+----+
-    |    |    |    |                     |    |    |
-    +----+----+----+                     +----+----+
-    If there is no valid square to Dodge to, the defender cannot Dodge.
+-   In the process of Dodging, the defender must move one space away. If
+    there is no valid square to Dodge to, the defender cannot Dodge.
 -   This movement is required whether the Dodge is succesful or not. In
     both cases, the attacker can choose to move one space towards the
     defender.
