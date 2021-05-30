@@ -39,8 +39,8 @@
     4.02 Footwork, Movement, and Fight Distance
     4.03 Actions
         4.03.01 Attack Actions
-        4.03.01 Set-up Actions
-        4.03.02 Special Actions
+        4.03.02 Set-up Actions
+        4.03.03 Special Actions
     4.04 Defenses
         4.04.01 Defensive Weakening
     4.05 Equipment
@@ -845,7 +845,7 @@ Controlled Attack: a devastating attack capable of killing in one blow
 -   Distance: determined by weapon
 
 ::::::::::::
-:  4.03.01 : Set-up Actions
+:  4.03.02 : Set-up Actions
 
 Tackle: a type of grapple that greatly restricts motion and movement
 -   Calculation: choice of Fighting Mind - 1 or Strength - 1
@@ -917,7 +917,7 @@ Trip: an interference with the legs to cause the enemy to fall
 -   Distance: determined by weapon
 
 ::::::::::::
-:  4.03.02 : Special Actions
+:  4.03.03 : Special Actions
 
 Stand Up: this action allows a PRONE character to end that condition. If
 chosen, it automatically succeeds.
