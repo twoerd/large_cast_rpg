@@ -50,7 +50,13 @@
     4.07 Conditions
     4.08 Multi-Combatant Combat
 
-5   Mass Combat (todo)
+5   Mass Combat
+    5.01 Armies
+        5.01.01 Troop Statistics
+    5.02 Terrain
+    5.03 Beginning a Battle
+    5.04 The Rounds of a Battle
+    5.05 Ending a Battle
 
 ############
 #  1       # General
@@ -1117,3 +1123,224 @@ space.
 
 Actions: if a combatant is fighting 1 against many, they must choose who
 to direct their action against while choosing their action.
+
+############
+#  5       # Mass Combat
+############
+
+++++++++++++
++  5.01    + Armies
+
+Each army is made up of a number troops of different types. There are 8
+types of troops, which can be categorized into infantry, cavalry, and
+ranged troops. Each troop type has statistics for strength, movement,
+and range, as well as special properties for how they can handle
+different terrain types, different enemies, etc.
+
+Infantry is divided into light, medium, heavy, and pikemen.
+
+Medium infantry can be thought of as the "default" group of soldiers:
+they fight hand-to-hand on foot, their weapons and armour is capable but
+not high-end, they fight together but are not particularly well-drilled,
+and they are not terribly costly to train and equip. Any soldiers that
+are not primarily soldiers fall under this category, making them quite
+common.
+
+Heavy infantry is an upgrade on medium cavalry in the sense that they
+have better equipment, especially armour, and are better trained to work
+together in more complicated formations.
+
+Pikemen are a further upgrade on heavy cavalry. They are nearly
+identical to heavy cavalry other than being particularly effective
+against all forms of cavalry.
+
+Light infantry are specialist troops. They are expert fighters on an
+individual level, but not trained to fight in formations. Instead, they
+have superior mobility. Unlike nearly every other troop type, they
+thrive in closed terrain such as forests, swamps and marshes, and cities
+but are somewhat vulnerable in a typical battlefield. Out of battle,
+light infantry can serve as scouts.
+
+Cavalry is also divided into light, medium, and heavy.
+
+Light cavalry are quick-moving, lightly armoured, and will only rarely
+carry out a head-on charge, prefering to use their mobility to attack
+from the sides and from the rear. Out of battle, light infantry can
+serve as scouts.
+
+Like medium infantry, medium cavalry can be thought of as the "default"
+mounted soldiers. They can do nearly every cavalry task, but not as well
+as the more specialized troops.
+
+Heavy cavalry are the quintessential heavily armoured, lance bearing
+cavalry - "knights in shining armour." As long as they have space, they
+are the rulers of the battlefield, capable of outmaneuvering their foes
+then launching an unstoppaple charge.
+
+There is only one type of ranged troops: Bowmen. Bowmen can include
+troops with bows or crossbows. They are the only troop type that does
+not have to engage in order to inflict losses on the enemy. However,
+they are not suited for hand-to-hand combat and can prove vulnerable in
+that context.
+
+::::::::::::
+:  5.01.01 : Troop Statistics
+
+That specific statistics and characteristics of the troops can be found
+in the table below:
+
+Troop Type          Strength    Movement    Range   Cost
+Light Infantry         2¹          3²                 4
+Medium Infantry        3           2                  3
+Heavy Infantry         4³          2                  4
+Pikemen                4³⁴         2                  6
+Light Cavalry          2⁵          5                 10
+Medium Cavalry         3⁵          4                 15
+Heavy Cavalry          5⁵          4                 20
+Bowmen                 2           2⁶         4       4
+
+Notes:
+¹   If light infantry or their enemy is in closed terrain, the strength
+    of the light infantry increases by 2.
+²   Light infantry can move 1 space immediately after they fight in
+    melee if they are in or moving to closed terrain, or if they are
+    moving across a soft barrier.
+³   If heavy infantry or pikemen or their enemy are in closed terrain,
+    their strength decreases by 1.
+⁴   If pikemen are fighting cavalry, their strength increases by 3.
+⁵   If cavalry and their enemy are in open terrain, their strength
+    increases by 2. This bonus is lost if there are 2 or more non-
+    adjacent enemies.
+⁶   If the bowmen move 2 or more spaces, they cannot shoot that round.
+⁷
+⁸
+⁹
+⁰
+
+++++++++++++
++  5.02    + Terrain
+
+Battlefields are represented as hexagon maps. A good size to use has 449
+hexes, arranged in 23 rows. The top and bottom row have 20 hexagons, and
+every other row has 19. (This arrangement assumes that the hexagons are
+oriented with a point at the top and bottom.)
+
+Terrain consists of 3 types of hexes, 2 types of barriers, and elevation
+changes. Hexes can be designated as "Open", "Closed", or "Impassable".
+What exactly the terrain is for each of these categories depends on the
+biome and landscape. Generally, Open terrain is roads, crop and grazing
+fields, plains, and clearings. Closed terrain is forests, buildings, and
+other areas where fighting and movement is possible but restricted.
+Impassable terrain includes water deeper than chest deep, extremely
+steep slopes, and any other terrain where fighting and moving as an army
+is impossible.
+
+Barriers are either "soft" or "hard". Examples of barriers include
+walls, ditches, stakes planted in the ground, and small creeks. Some
+barriers are designed to function in a single direction, but many are
+two-directional. For two-directional barriers, the attacking unit is the
+unit that has most recently moved. Soft barriers do not affect movement,
+but the unit that is attacking across a soft barrier has a strength
+penalty of 1. Hard barriers cannot be crossed, and units on opposite
+sides of a hard barrier are not considered adjacent and therefore cannot
+fight.
+
+A unit on high ground gets a strength bonus of 1.
+
+++++++++++++
++  5.03    + Beginning a Battle
+
+Before a battle begins, each side must split their troops into units.
+Each unit must consist of a number of troops without mixing troop types.
+The side with the greater number of troops creates their units first.
+First, the number of troops of each type is recorded. If there are less
+than 9 units, the largest unit is given an additional unit and the
+troops are split evenly. This repeats until the army has 9 units.
+
+For the smaller army, the same process is followed. However, a unit of
+the smaller army cannot be smaller than half the average unit size of
+the larger army, unless the unit already contains all troops of its
+type.
+
+At the beginning of a battle, one side is necessarily defending. They
+are either standing and fighting (i.e. they were aware of the
+approaching army and are facing them head-on) or they have been ambushed
+(i.e. they are marching or in camp and not positioned for a fight).
+Which side is which depends on the fiction [though once I have formal
+rules for contested movement, it will be determined by those rules].
+
+In the case of a defending army, they can pick the battlefield (within
+reason, as fits the terrain of the area) and they can place their units
+first. They can also determine which portion of the map the attacking
+army must place their units in. This is done by picking a straight row
+of hexes that contains at least one defending unit and does not divide
+the defending army. Then the attacking army can place their units in
+that row or any row on the opposite side from the defending army.
+
+In the case of an ambushed army, the attacking army can pick the
+battlefield. The marching or encamped army places their troops in a
+manner that is appropriate for marching or camping. Then the attacking
+army can place their units anywhere they like aside from being
+surrounded.
+
+In both cases, this troop placement counts as all the movement phases of
+the first round.
+
+Once the units are created, the number of troops used for losses are
+calculated. The losses are 1/4 (rounded down) of the average unit size
+across both armies.
+
+++++++++++++
++  5.04    + The Rounds of a Battle
+
+Each round consists of 4 movement phases and the combat phase. For each
+round, one army will be proactive, meaning that they have slightly more
+control over the battle. Which army is proactive alternates each round,
+starting with the attacking army.
+
+Both sides secretly choose half of their units (rounded down, but a
+minimum of 1) to move quickly. Then the 4 movement phases occur:
+1.  Chosen "quick" units of the proactive side,
+2.  Chosen "quick" units of the other side,
+3.  Remaining units of the proactive side,
+4.  Remaining units of the other side.
+
+When moving, any unit that moves adjacent to an enemy must stop their
+movement. Both they and that adjacent unit can no longer move that
+round. If a unit starts adjacent to an enemy, it can still move.
+
+The combat phase consists of determining the clusters of engaged units,
+then rolling and adjudicating results for each cluster.
+
+When determining clusters, the following rules must be followed:
+1.  Every unit that is adjacent to an enemy must be in a cluster.
+2.  Every cluster must be as simple as possible (have as few units as
+    possible). No cluster can have 2 units from the same side. In other
+    words, clusters should be 1-on-1 unless that is not possible.
+3.  If multiple clusterings are allowed, the proactive side chooses.
+
+For a 1-on-1 cluster, the strengths of each unit are determined. Then a
+roll is made using those strengths. The winner of the role deals losses
+to the loser, and the loser must move one space away from the winner. If
+they cannot move, they take double losses. Count losses up from 0. If a
+unit reaches losses equal to their unit size, those troops are
+permanently lost. "Losses" include soldiers who are wounded, killed, or
+who flee. Some losses may be restored at the end of a battle.
+
+++++++++++++
++  5.05    + Ending a Battle
+
+Some battles end when all units of an army are lost. However, most
+battles end when one side surrenders or retreats. In the case of
+surrender, roleplay and the "Discussions" system should be used to
+determine terms of surrender. Both sides have their losses halved, with
+the exception that fully lost units remain fully lost.
+
+Either side can choose to retreat before the movement phase. Each unit
+that can move away from the battlefield without becoming engaged can
+retreat, and their losses will be permanent. The retreating army can
+move their units in any order. Any units that cannot retreat must stay
+and fight.
+
+The army that doesn't retreat has the losses of all units halved, with
+the exception that fully lost units remain fully lost.
