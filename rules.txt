@@ -1327,6 +1327,13 @@ unit reaches losses equal to their unit size, those troops are
 permanently lost. "Losses" include soldiers who are wounded, killed, or
 who flee. Some losses may be restored at the end of a battle.
 
+For a 1-on-many cluster, the strengths of each unit are determined. Then
+multiple rolls are made for each 1-on-1 pair within the cluster. If the
+lone unit wins all the rolls, they deal half losses to each enemy unit,
+and all enemy units must move back. If any of the "many" units wins
+their roll, full losses are dealt to the lone unit and the side of the
+"many" chooses which unit the loser must move back from.
+
 ++++++++++++
 +  5.05    + Ending a Battle
 
