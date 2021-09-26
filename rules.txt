@@ -1319,6 +1319,19 @@ When determining clusters, the following rules must be followed:
     words, clusters should be 1-on-1 unless that is not possible.
 3.  If multiple clusterings are allowed, the proactive side chooses.
 
+Before the clusters are resolved, the ranged attacks are resolved. Each
+unit of unengaged bowmen that has moved 0 or 1 space during the movement
+phase chooses their target. The bowmen, their target, and every space
+between them must be open terrain. Range is counted with the bowmen in
+space 0, and the distance of the target must be equal or less than the
+range of the bowmen. The strength of the bowmen and of their target is
+determined. Losses are calculated as a fraction of the bowmen unit's
+size according to the table below.
+
+Range       Bowmen win roll     Target wins roll
+2           3/10                1/10
+3-4         1/10                0
+
 For a 1-on-1 cluster, the strengths of each unit are determined. Then a
 roll is made using those strengths. The winner of the role deals losses
 to the loser, and the loser must move one space away from the winner. If
