@@ -339,6 +339,27 @@ Fighting Mind   1 + 2 = 3
 Speed           1 + 2 = 3
 Strength        1 + 5 = 6
 
+For world-building purposes, the following general ratings can serve as
+a guide:
+
+2   Average person, soldier, servant, etc
+3   Talented person, soldier, craftsman
+4   Leader of household, sergeants
+5   Captains, master craftsman, minor nobility
+6   Landowner, knight, lord
+7   General, great nobility
+8   King
+
+This rating does not necessarily mean that a person matching the
+description has that rating, just that they have access to about one
+person that matches that profile.
+
+Additionally, the rating given here is for one of the four skill groups.
+The other skill groups should be lower, such as -1, -2, -3 relative to
+the top skill group.
+
+[What follows is the old version of the worldbuilding distribution]
+
 For non-main characters or just for worldbuilding in general, a slightly
 different method should be used. Instead of the dice method described in
 step 1 above, a unique distribution should be used. That distribution,
