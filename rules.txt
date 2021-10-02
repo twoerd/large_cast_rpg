@@ -14,14 +14,13 @@
         1.02.03 Note About Dice
     1.03 Skills
         1.03.01 Skill Rating Generation
-    1.04 Conditions (todo)
-    1.05 The Structure of a Campaign
-        1.05.01 Worldbuilding
-        1.05.02 Characters
-        1.05.03 Calendars & Timekeeping
-        1.05.04 Economics
-        1.05.05 External Events
-    1.06 The Structure of a Session
+    1.04 The Structure of a Campaign
+        1.04.01 Worldbuilding
+        1.04.02 Characters
+        1.04.03 Calendars & Timekeeping
+        1.04.04 Economics
+        1.04.05 External Events
+    1.05 The Structure of a Session
 
 2   Decisions & Discussions
     2.01 Description of a Discussion
@@ -375,15 +374,12 @@ logistical undertaking would be enormous - it would be an accomplishment
 to even find 10 of these people).
 
 ++++++++++++
-+  1.04    + Conditions
-
-++++++++++++
-+  1.05    + The Structure of a Campaign
++  1.04    + The Structure of a Campaign
 
 [include a note about whether there is a GM: is there?]
 
 ::::::::::::
-:  1.05.01 : Worldbuilding
+:  1.04.01 : Worldbuilding
 
 At the beginning of a campaign the players will need a setting, and
 therefore will need to do some worldbuilding or at minimum do some
@@ -437,7 +433,7 @@ include firearms & gunpowder, electricity, steam power, and
 industrialized machinery.
 
 ::::::::::::
-:  1.05.02 : Characters
+:  1.04.02 : Characters
 
 Once a setting has been established, the players will need to create
 the main characters. Each player will control 3-5 characters, depending
@@ -478,7 +474,7 @@ If they do not, then ratings can be generated as described in sections
 1.03.01 and 2.03.03.
 
 ::::::::::::
-:  1.05.03 : Calendars & Timekeeping
+:  1.04.03 : Calendars & Timekeeping
 
 In order to handle all the characters and their actions, the players
 should collectively keep a calendar. At the end of scenes that take less
@@ -500,7 +496,7 @@ Whenever the group is uncertain how much time a given activity should
 take, they should discuss to arrive at a logical amount of time.
 
 ::::::::::::
-:  1.05.04 : Economics 
+:  1.04.04 : Economics 
 
 This is not primarily a game about economics, but a game about politics,
 leadership, and regional interaction, will inevitably involve economic
@@ -526,7 +522,7 @@ cities, and ships that the wealth rating can support is reverse-
 engineered to match the worldbuilding.
 
 ::::::::::::
-:  1.05.05 : External Events
+:  1.04.05 : External Events
 
 Should the campaign need some shaking up (due to inaction on the part of
 the players), an external event can be used. These events are external
