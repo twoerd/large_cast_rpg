@@ -1076,21 +1076,23 @@ Weapons can give small penalties or bonuses to certain actions or
 defenses. If a two-handed weapon is used with only one hand, it has a -2
 to all actions and defenses.
 
-Dagger (Dagger Distance): -2 Parry
-Rock (Dagger Distance): no Parry, -2 attacks
-Hands (Dagger Distance): no Parry*, -4 attacks. (*unless the enemy is
-    also unarmed)
+Dagger Distance
+- Dagger: -2 Parry
+- Rock: no Parry, -2 attacks
+- Hands: no Parry*, -4 attacks. (\*unless the enemy is also unarmed)
 
-Sword (Sword Distance)
-Club (Sword Distance): -1 Parry
-Hammer (Sword Distance): -1 Parry, +1 attacks
-Axe (Sword Distance): -1 Parry, +1 attacks
-Fencing Sword (Sword Distance): -1 attacks
-Big Sword (Sword Distance): +1 attacks, two-handed
+Sword Distance
+- Sword
+- Club: -1 Parry
+- Hammer: -1 Parry, +1 attacks
+- Axe: -1 Parry, +1 attacks
+- Fencing Sword: -1 attacks
+- Big Sword: +1 attacks, two-handed
 
-Spear (Spear Distance)
-Staff (Spear Distance): -1 attacks
-Halberd (Spear Distance): +1 attacks, two-handed
+Spear Distance
+- Spear
+- Staff: -1 attacks
+- Halberd: +1 attacks, two-handed
 
 ### 4.05.02 Armour and Shields
 
