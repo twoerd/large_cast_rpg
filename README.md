@@ -1101,10 +1101,9 @@ penalty.
 
 Armour is assumed to apply to all parts of the body equally. There are
 three types of armour:
-
-Metal plate armour, which gives a +4 defense against attacks,
-Other metal armour, which gives a +2 defense against attacks,
-Other armour, which gives a +1 defense against attacks.
+- Metal plate armour, which gives a +4 defense against attacks,
+- Other metal armour, which gives a +2 defense against attacks,
+- Other armour, which gives a +1 defense against attacks.
 
 For example, a character with a shield and metal plate armour and a
 Control rating of 3 will have a Parry rating of 3 - 2 + 1 = 2. When
