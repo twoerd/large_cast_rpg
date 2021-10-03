@@ -19,14 +19,46 @@ removed in rows from the short side.
 
 Small
 
-Normal            xx            Large             xxxx
-                  xx                              xxxx
+Normal:
 
-Normal (long)     xxxx          Large (long)      xxxxxx
+```
+XX
+XX
+```
 
-                                                  xxx
-Normal (awkward)  xxx           Large (awkward)   xxx
-                    x                               xx
+Normal (long):
+
+```
+XXXX
+```
+
+Normal (awkward):
+
+```
+XXX
+X
+```
+
+Large:
+
+```
+XXXX
+XXXX
+```
+
+Large (long):
+
+```
+XXXXXX
+```
+
+Large (awkward):
+
+```
+XXX
+XXX
+  XX
+```
 
 ### Object List
 
