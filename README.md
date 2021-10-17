@@ -949,7 +949,7 @@ Tackle: a type of grapple that greatly restricts motion and movement
 -   Weak effect: The victim suffers a -1 penalty to Control, Speed, and
     Strength for the following 2 rounds. The attacker suffers a -3
     penalty to all defenses for the following 2 rounds.
--   Defended by: Dodge or Strength
+-   Defended by: Fighting Mind or Strength
 -   Distance: always Dagger distance
 -   Restrictions: must have a free hand in order to Tackle
 
@@ -977,9 +977,9 @@ Feint: an attempt to mislead the defender into setting up defenses that
     will not be needed
 -   Calculation: choice of Fighting Mind or Speed
 -   Strong effect: The victim suffers a -3 penalty to Fighting Mind and
-    Control for the following 2 rounds.
+    Speed for the following 2 rounds.
 -   Weak effect: The victim suffers a -1 penalty to Fighting Mind and
-    Control for the following 2 rounds.
+    Speed for the following 2 rounds.
 -   Defended by: Fighting Mind
 -   Distance: determined by weapon
 
@@ -994,22 +994,22 @@ Hold: a type of grapple that restricts motion and movement
 
 Push: a use of the arms, shoulders, hips, or feet to force movement
 -   Calculation: Strength
--   Strong effect: The victim suffers a -3 penalty to Control and Speed
-    for the following 2 rounds, and is pushed away one space (the
+-   Strong effect: The victim suffers a -3 penalty to Control and Fighting
+    Mind for the following 2 rounds, and is pushed away one space (the
     attacker chooses which space). This movement overrides any Dodge
     movement. The attacker must approach the enemy to be at Dagger or
     Sword distance.
--   Weak effect: The victim suffers a -1 penalty to Control and Speed
-    for the following 2 rounds.
+-   Weak effect: The victim suffers a -1 penalty to Control and Fighting
+    Mind the following 2 rounds.
 -   Defended by: Dodge or Strength
 -   Distance: always Dagger distance
 
 Trip: an interference with the legs to cause the enemy to fall
 -   Calculation: Control
--   Strong effect: The victim suffers a -3 penalty to Speed for the
-    following 2 rounds and is PRONE.
--   Weak effect: The victim suffers a -1 penalty to Speed for the
-    following 2 rounds.
+-   Strong effect: The victim suffers a -3 penalty to Fighting Mind and
+    Speed for the following 2 rounds and is PRONE.
+-   Weak effect: The victim suffers a -1 penalty to Fighting Mind and
+    Speed for the following 2 rounds.
 -   Defended by: Dodge or Strength
 -   Distance: determined by weapon
 
