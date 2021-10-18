@@ -892,8 +892,9 @@ Fight Distance, with C1 as Combatant 1 and C2 as Combatant 2:
 
 A Footwork contest consists of a single skill check: one combatant's
 Footwork rating against the other's. Footwork is equal to the
-character's choice of Speed or Fighting Mind. The winner of the Footwork
-contest may move 0 or 1 space.
+character's choice of Speed or Fighting Mind. The loser of the Footwork
+contest may move 0 or 1 space, followed by the winner of the Footwork
+contest who may move 1 or 2 spaces.
 
 The Fight Distance can give a -1 penalty to any action or to Parry
 defenses that don't match the Fight Distance. For example, if the combat
