@@ -1131,10 +1131,23 @@ healed. Major Wounds cause the victim to be incapable doing anything,
 and the victim will die within the hour unless medical aid is given. An
 enemy can kill the victim with an action (no skill check required).
 
-Healing: The victim must make a roll each day for each wounded body
-part. After 4 successes, all wounds to that body part are healed. For
-Minor Wounds, roll a skill check as if the rating was 0 against 0. For
-Major Wounds, roll a skill check as if the rating was 0 against 4.
+Healing: Wounds can be healed by the victim or another helper, as long
+as they have materials appropriate to the wound (i.e. bandages, needle,
+thread for cuts, casts and braces for bones). The person doing the
+healing rolls with their Heal skill each day. If the wounded person is
+healing themselves, they have a -1 penalty. For minor wounds, roll
+against 3. For major wounds, roll against 7. After 4 successes, a major
+wound becomes a minor wound, and all minor wounds are removed.
+
+A lack of food, water, shelter, or similar amenities can prevent a
+person from recovering from wounds. No wounds heal if the victim doesn't
+have proper food, water, and sleep in the last day. Wounds cannot heal
+if they are wet or dirty, such as if the victim doesn't have a tent or
+other shelter, or doesn't have a change of clothes. Major wounds cannot
+heal if the body part is used. For a major wound on the head or torso,
+the victim must be bedridden. For a major wound on the leg, they may not
+walk (but can ride, or be carried). For a major wound on the arm, they
+may not use that arm or hand.
 
 ## 4.07 Conditions
 
