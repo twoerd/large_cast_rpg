@@ -1347,7 +1347,8 @@ troops are split evenly. This repeats until the army has 9 units.
 For the smaller army, the same process is followed. However, a unit of
 the smaller army cannot be smaller than half the average unit size of
 the larger army, unless the unit already contains all troops of its
-type.
+type. In addition, the smaller army (by raw numbers only) must have
+at least one less unit than the bigger.
 
 At the beginning of a battle, one side is necessarily defending. They
 are either standing and fighting (i.e. they were aware of the
