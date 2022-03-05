@@ -1079,6 +1079,7 @@ Sword Distance
 - Sword
 - Club: -1 Parry
 - Hammer: -1 Parry, +1 attacks
+- Mace: -1 Parry, +1 attacks but +2 attacks against plate armour
 - Axe: -1 Parry, +1 attacks
 - Fencing Sword: -1 attacks
 - Big Sword: +1 attacks, two-handed
