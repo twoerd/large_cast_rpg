@@ -1368,7 +1368,7 @@ In both cases, this troop placement counts as all the movement phases of
 the first round.
 
 Once the units are created, the number of troops used for losses are
-calculated. The losses are 1/4 (rounded down) of the average unit size
+calculated. The losses are 1/3 (rounded up) of the average unit size
 across both armies.
 
 ## 5.04 The Rounds of a Battle
