@@ -169,33 +169,33 @@ the unopposed skill check. If they do not want to take the risk
 associated with the skill check, they can role-play to change the
 situation, which changes the difficulty and consequences.
 
-In the resolution of a skill check, the difference between the skill
-ratings (or the skill rating and the difficulty) is used to determine
-how many dice to roll. If "d" is the difference (must be positive), then
-"d+2" 8-sided dice are rolled. If any single dice shows a 7 or an 8,
-then the character with the higher skill rating was successful (or
-performed better). If "d" is 0, then a single dice is rolled, with the
-characters having an equal chance of success.
+To resolve a skill check, roll two 8-sided and one 10-sided dice, using
+the 0 of the 10-sided die as a 0. (In this way, the average of each die
+is 4.5, but the 10-sided dice has one higher and one lower result). Add
+the sum of the dice to the relevant skill rating. If the total is equal
+or greater than 14 + the opposing skill rating or difficulty rating, the
+skill check is a success.
 
 ### 1.02.02 Skill Check Examples
 
 If Morten Avitch is racing against his sister Ella Avitch, then they
-might roll their "Run" skills against each other. If Morten's "Run" is 2
-and Ella's is 4, then four 8-sided dice are rolled. If any of the dice
-show 7 or 8, then Ella is faster. Ella's player rolls the dice, and gets
-2, 2, 3, 6, so Morten wins the race.
+might roll their "Run" skills against each other. Either of the players
+can roll, so the example will use Ella. Her "Run" is 4, so she adds the
+sum of her dice roll to 4. Morten's "Run" is 2, so the number to equal
+or beat is 16. Ella's player rolls an 4, 5, and 1 for a total of 14, so
+Morten wins the race.
 
 If Morten Avitch is trying to climb a cliff. He has a "Jump/Climb"
-rating of 3, and the cliff has a difficulty of 3 (where the consequence
+rating of 3, and the cliff has a difficulty of 17 (where the consequence
 is falling up to 15 feet, causing a major wound). He doesn't want to
 take this risk, so he decides to throw a rope around a tree. (Throwing
 the rope doesn't require a roll unless there is a potential consequence,
 like a time-pressure or the potential to lost the rope). With the rope
-tied, the skill check now has a difficulty of 2, but the consequence is
+tied, the skill check now has a difficulty of 16, but the consequence is
 that Morten is simply too weak to be able to make the climb. Morten can
-now roll 3 8-sided dice, where a 7 or 8 indicates a successful climb (as
-Morten's "Jump/Climb" is higher than the cliff's difficulty of 2). He
-rolls a 4, 6, 8, and makes the climb.
+now roll. The 8-sided dice are 2 and 6 and the 10-sided dice is a 1, for
+a total of 12. This is less than the difficulty, so Morten cannot make
+the climb.
 
 ### 1.02.03 Note About Dice
 
@@ -204,14 +204,7 @@ set of commonly-available polyhedral dice. The set consists of a 4-sided
 dice, a 6-sided dice, an 8-sided dice, a 10-sided dice (numbered from 0
 to 9), a 10-sided dice (numbered from 00 to 90), a 12-sided dice, and a
 20-sided dice. It is recommended that the table as a whole has at least
-ten 8-sided dice to share.
-
-Technically, the 8-sided dice can be substituted for other dice. The key
-property is that they must be a multiple of 4-sided: 4-sided, 8-sided,
-12-sided, or 20-sided. For 4-sided dice, success occurs on a 4. For
-8-sided dice, success occurs on a 7 or 8. For 12-sided dice, success
-occurs on a 10, 11, or 12. Finally, for 20-sided dice, success occurs on
-a 16, 17, 18, 19, or 20.
+four 8-sided dice to share.
 
 ## 1.03 Skills
 
