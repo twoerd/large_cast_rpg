@@ -285,7 +285,7 @@ The following process should be used to generate values:
     dice, summing the lowest 3 values, and subtracting 3.
 2.  That rating is multiplied by the number of skills in the group. This
     number is the "bank" that will be split to the skills in the group.
-3.  Each skill is assigned a minimum of "r-3", if "r-3" is greater than
+3.  Each skill is assigned a minimum of "r-2", if "r-2" is greater than
     0. For each value assigned to a rating, that same value is removed
     from the "bank".
 4.  The remaining values in the "bank" are assigned to the skills
@@ -297,28 +297,28 @@ The following process should be used to generate values:
 For example, when generating skill ratings the "Hand-to-Hand" group,
 four 4-sided dice are rolled: 4, 2, 2, 3. This results in a value of 4,
 as (2+2+3)-3 = 4. Multiplied by the 4 skills in the group gives a bank
-of 16. Each of the skills in the group are assigned a minimum of "r-3",
-in this case 1: 
+of 16. Each of the skills in the group are assigned a minimum of "r-2",
+in this case 1:
 
 | Statistic     |   |
 |---------------|---|
-| Control       | 1 |
-| Fighting Mind | 1 |
-| Speed         | 1 |
-| Strength      | 1 |
+| Control       | 2 |
+| Fighting Mind | 2 |
+| Speed         | 2 |
+| Strength      | 2 |
 
-The bank is now at 12. A d4 (because the group has 4 skills) is rolled
-12 times, resulting in 2, 1, 2, 4, 4, 3, 1, 4, 4, 3, 4, 1. Each result
+The bank is now at 8. A d4 (because the group has 4 skills) is rolled
+8 times, resulting in 2, 1, 2, 4, 4, 3, 1, 4. Each result
 of 1 corresponds to the first skill in the group, Control. Therefore,
 the final value for Control is 4. The other skill ratings are calculated
 in the same way:
 
 | Statistic     |   |         |
 |---------------|---|---------|
-| Control       | 1 | + 3 = 4 |
-| Fighting Mind | 1 | + 2 = 3 |
-| Speed         | 1 | + 2 = 3 |
-| Strength      | 1 | + 5 = 6 |
+| Control       | 2 | + 2 = 4 |
+| Fighting Mind | 2 | + 2 = 4 |
+| Speed         | 2 | + 1 = 3 |
+| Strength      | 2 | + 3 = 5 |
 
 For worldbuilding purposes, the following general ratings can serve as
 a guide:
