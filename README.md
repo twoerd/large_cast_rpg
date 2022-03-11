@@ -1006,7 +1006,7 @@ Push/Pull: a use of the arms, shoulders, hips, or feet to force movement
 -   Strong effect: The victim suffers a -3 penalty to Control and
     Fighting Mind for the following 2 rounds. They are then pushed or
     pulled one space. In a push, the attacker chooses which space the
-    victim moves back to, then approaches to Dagger of Sword distance.
+    victim moves away to, then approaches to Dagger of Sword distance.
     In a pull, the victim moves to Dagger distance.
 -   Weak effect: The victim suffers a -1 penalty to Control and Fighting
     Mind the following 2 rounds.
