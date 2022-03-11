@@ -907,7 +907,8 @@ Quick Attack: a quick but less impactful attack
 -   Calculation: choice of Speed or Strength
 -   Strong effect: The victim can choose one body part to protect, then
     the attacker can give a Minor Wound to one of the remaining body
-    parts.
+    parts. The attacker suffers a -1 penalty to all defenses for the
+    following 2 rounds.
 -   Weak effect: The victim gets a Minor Wound on a body part of their
     choice (it may not already have a Major Wound). The attacker suffers
     a -2 penalty to all defenses for the following 2 rounds.
