@@ -900,6 +900,17 @@ Distance is greater than the distance of their action. For example, a
 character that is PRONE cannot attack an enemy at Spear distance with a
 sword, nor can they Push/Pull the enemy.
 
+### 4.02.01 Fleeing
+
+Before the Footwork contest, a combatant may decide to flee. They must
+have a path to leave Spear distance of their enemies with approaching
+any enemy, and once outside Spear distance they must have a path away
+from the fight without re-entering Spear distance of any enemy.
+
+When a combatant flees, any enemy that was within Spear distance or
+closer can make an attack with no penalty to defense in the case of a
+weak effect.
+
 ## 4.03 Actions
 
 ### 4.03.01 Attack Actions
