@@ -1213,7 +1213,16 @@ combat ends due to surrender, Wounds, death, or fleeing, the victors may
 choose to join another Hand-to-Hand combat. If joining would cause a 2
 against many situation, then that Hand-to-Hand combat splits as deter-
 mined by the positioning. Characters not in a Hand-to-Hand combat can
-move 3 spaces after the Footwork contests.
+move after the Footwork contests according to their "Run" skill:
+
+| Run Skill | Spaces |
+|:---------:|--------|
+|  0-1      | Two    |
+|  2-3      | Three  |
+|  4-5      | Four   |
+|  6-7      | Five   |
+|  8-9      | Six    |
+|  10       | Seven  |
 
 Parrying: if a defender is fighting 1 against many, they can only Parry
 two actions.
@@ -1222,10 +1231,11 @@ Dodging: if a defender is fighting 1 against many, they can Dodge any
 number of actions as long as their single move qualifies as a Dodge for
 those actions.
 
-Footwork Contests: if a combatant is fighting 1 against many, they can
-only move if they win a separate Footwork contest against each enemy.
-Otherwise, each enemy that won their Footwork contest can move one
-space.
+Footwork Contests: if a combatant is fighting 1 against many, they roll
+Footwork once as does each enemy. If the lone combatant wins every
+contest, all enemies move one space and the lone combatant moves two.
+Otherwise, the lone combatant moves one space, then any enemies that won
+Footwork move 2 spaces and the other enemies move one space.
 
 Actions: if a combatant is fighting 1 against many, they must choose who
 to direct their action against while choosing their action.
