@@ -897,7 +897,7 @@ penalty.
 If a character cannot move, then they cannot take actions if the Fight
 Distance is greater than the distance of their action. For example, a
 character that is PRONE cannot attack an enemy at Spear distance with a
-sword, nor can they Push the enemy.
+sword, nor can they Push/Pull the enemy.
 
 ## 4.03 Actions
 
@@ -986,13 +986,14 @@ Hold: a type of grapple that restricts motion and movement
 -   Distance: always Dagger distance
 -   Restrictions: must have a free hand in order to Hold
 
-Push: a use of the arms, shoulders, hips, or feet to force movement
+Push/Pull: a use of the arms, shoulders, hips, or feet to force movement
 -   Calculation: Strength
--   Strong effect: The victim suffers a -3 penalty to Control and Fighting
-    Mind for the following 2 rounds, and is pushed away one space (the
-    attacker chooses which space). This movement overrides any Dodge
-    movement. The attacker must approach the enemy to be at Dagger or
-    Sword distance.
+-   Strong effect: The victim suffers a -3 penalty to Control and
+    Fighting Mind for the following 2 rounds. They are then pushed or
+    pulled one space (the attacker chooses which space). This movement
+    overrides any Dodge movement. If they are pushed, the attacker must
+    finish the action at Dagger or Sword distance. If they are pulled,
+    the attacker must finish the action at Dagger distance.
 -   Weak effect: The victim suffers a -1 penalty to Control and Fighting
     Mind the following 2 rounds.
 -   Defended by: Dodge or Strength
@@ -1145,9 +1146,9 @@ may not use that arm or hand.
 
 ## 4.07 Conditions
 
-PRONE: Cannot take the Push action, use the Dodge defense, participate
-in Footwork contests, or move. A Stand Up action will end this
-condition.
+PRONE: Cannot take the Push/Pull action, use the Dodge defense,
+participate in Footwork contests, or move. A Stand Up action will end
+this condition.
 
 HELD: Cannot participate in Footwork contests, or move. Additionally,
 suffers a -2 penalty to Speed and Strength. A Break Hold action will end
@@ -1156,13 +1157,13 @@ is Dagger distance. If the enemy releases the Hold, uses their hand for
 another purpose, or is at a distance greater than Dagger distance, the
 condition ends.
 
-TACKLED: Cannot take the Push action, use the Dodge defense, participate
-in Footwork contests, or move. Additionally, suffers a -2 penalty to
-Control, Speed, and Strength. A Break Tackle action will end this
-condition. For as long as the character is held, the Fight Distance is
-Dagger distance. If the enemy releases the Tackle, uses their hand for
-another purpose, or is at a distance greater than Dagger distance, the
-TACKLED conditions ends, but the character is now PRONE.
+TACKLED: Cannot take the Push/Pull action, use the Dodge defense,
+participate in Footwork contests, or move. Additionally, suffers a -2
+penalty to Control, Speed, and Strength. A Break Tackle action will end
+this condition. For as long as the character is held, the Fight Distance
+is Dagger distance. If the enemy releases the Tackle, uses their hand
+for another purpose, or is at a distance greater than Dagger distance,
+the TACKLED conditions ends, but the character is now PRONE.
 
 ## 4.08 Multi-Combatant Combat
 
