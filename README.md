@@ -1405,12 +1405,13 @@ round, one army will be proactive, meaning that they have slightly more
 control over the battle. Which army is proactive alternates each round,
 starting with the attacking army.
 
-Both sides secretly choose half of their units (rounded down, but a
-minimum of 1) to move quickly. Then the 4 movement phases occur:
-1.  Chosen "quick" units of the proactive side,
-2.  Chosen "quick" units of the other side,
-3.  Remaining units of the proactive side,
-4.  Remaining units of the other side.
+The 4 movement phases consist of each army moving half their army:
+1.  The proactive side moves up to half their units (rounded down, but a
+    minimum of one),
+1.  The other side moves up to half their units (rounded down, but a
+    minimum of one),
+3.  The proactive side moves remaining units,
+4.  The other side moves remaining units.
 
 When moving, any unit that moves adjacent to an enemy must stop their
 movement. Both they and that adjacent unit can no longer move that
@@ -1428,12 +1429,13 @@ When determining clusters, the following rules must be followed:
 
 Before the clusters are resolved, the ranged attacks are resolved. Each
 unit of unengaged bowmen that has moved 0 or 1 space during the movement
-phase chooses their target. The bowmen, their target, and every space
-between them must be open terrain. Range is counted with the bowmen in
-space 0, and the distance of the target must be equal or less than the
-range of the bowmen. The strength of the bowmen and of their target is
-determined. Losses are calculated as a fraction of the bowmen unit's
-size according to the table below.
+phase chooses their target. The bowmen's target and every space between
+them and the target must be open terrain, though the bowmen can be in
+closed terrain themselves. Range is counted with the bowmen in space 0
+and the distance of the target must be equal or less than the range of
+the bowmen. The strength of the bowmen and of their target is
+determined, then losses are calculated as a fraction of the bowmen
+unit's size according to the table below.
 
 | Range | Bowmen win roll | Target wins roll |
 |:-----:|:---------------:|:----------------:|
