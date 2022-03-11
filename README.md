@@ -34,6 +34,7 @@
 - 4 Hand-to-Hand Combat
   - 4.01 Rounds
   - 4.02 Footwork, Movement, and Fight Distance
+    - 4.02.01 Fleeing
   - 4.03 Actions
     - 4.03.01 Attack Actions
     - 4.03.02 Set-up Actions
