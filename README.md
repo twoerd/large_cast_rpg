@@ -930,11 +930,12 @@ Quick Attack: a quick but less impactful attack
 
 Vicious Attack: a strong but wild and uncontrolled attack
 -   Calculation: Strength - 1
--   Strong effect: The victim is wounded randomly. There is a 66% chance
-    (2/3) of 2 Minor Wounds, and a 33% chance (1/3) of 1 Major Wound.
-    The body part is randomly chosen at equal probability. If the body
-    part already has a Major Wound, an adjacent body part receives a
-    Minor Wound.
+-   Strong effect: The victim is wounded randomly. Roll a 6-sided dice.
+    On a 3-6, the victim takes a major wound: 6=head, 5=body, 4=arm,
+    3=leg. In the case of an arm or leg wound, the attacker can choose
+    which side. If the body part already has a Major Wound, an adjacent
+    body part receives a Minor Wound. If the roll was a 1-2, the victim
+    takes a minor wound: 2=head/body, 1=arm/leg (attacker chooses).
 -   Weak effect: The attacker suffers a -4 penalty to all defenses for
     the following 2 rounds.
 -   Defended by: Dodge or Parry, plus Armour
